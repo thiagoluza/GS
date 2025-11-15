@@ -70,7 +70,6 @@ function App() {
   const abrirModal = (perfil) => setPerfilSelecionado(perfil);
   const fecharModal = () => setPerfilSelecionado(null);
 
-  // 1. FALTAVA O "RETURN" AQUI
   return (
     <div className="relative min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-8">
 

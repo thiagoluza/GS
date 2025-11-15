@@ -2,11 +2,16 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", 
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'brand-orange': '#F25D27', 
+        'brand-blue': '#1D4ED8',   
+      }
+    },
   },
   plugins: [],
 }

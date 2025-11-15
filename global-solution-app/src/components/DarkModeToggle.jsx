@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 
 export default function DarkModeToggle() {
-  
+
   const [isDarkMode, setIsDarkMode] = useState(() => {
     if (localStorage.theme === 'dark') {
       return true;
@@ -14,14 +14,14 @@ export default function DarkModeToggle() {
   });
 
   useEffect(() => {
-    const root = window.document.documentElement; 
+    const root = window.document.documentElement;
 
     if (isDarkMode) {
       root.classList.add('dark');
-      localStorage.setItem('theme', 'dark'); 
+      localStorage.setItem('theme', 'dark');
     } else {
       root.classList.remove('dark');
-      localStorage.setItem('theme', 'light'); 
+      localStorage.setItem('theme', 'light');
     }
   }, [isDarkMode]);
 
@@ -34,12 +34,28 @@ export default function DarkModeToggle() {
       onClick={toggleTheme}
       className="absolute top-8 right-8 p-3 rounded-full 
                  bg-gray-200 dark:bg-gray-700 
-                 text-gray-800 dark:text-gray-200
                  hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
       aria-label="Toggle dark mode"
     >
-      {/* Mostra um ícone ou outro dependendo do estado */}
-      {isDarkMode ? '☀️' /* <FaSun /> */ : '🌙' /* <FaMoon /> */}
+
+      {isDarkMode ? (
+
+        <img
+          src="/images/night-mode-branco.png" 
+          alt="Ativar modo claro"
+          className="w-6 h-6"
+        />
+
+      ) : (
+
+        <img
+          src="/images/night-mode.png" 
+          alt="Ativar modo escuro"
+          className="w-6 h-6"
+        />
+
+      )}
+
     </button>
   );
 }
