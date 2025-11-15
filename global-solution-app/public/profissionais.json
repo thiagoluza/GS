@@ -1,0 +1,3386 @@
+[
+    {
+        "Id": 1,
+        "nome": "Ana Beatriz Costa",
+        "foto": "https://randomuser.me/api/portraits/men/1.jpg",
+        "cargo": "Engenheira de Software Sênior",
+        "resumo": "Engenheira de software com 5+ anos de experiência em desenvolvimento full-stack...",
+        "localizacao": "São Paulo/SP",
+        "area": "Desenvolvimento",
+        "habilidadesTecnicas": [
+            "React",
+            "Node.js",
+            "AWS",
+            "TypeScript",
+            "Docker"
+        ],
+        "softSkills": [
+            "Comunicação Assertiva",
+            "Resolução de Problemas",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "TechCorp Solutions",
+                "cargo": "Engenheira de Software Sênior",
+                "inicio": "2020-01",
+                "fim": "Atual",
+                "descricao": "Liderança técnica no desenvolvimento de microserviços..."
+            },
+            {
+                "empresa": "WebStart",
+                "cargo": "Desenvolvedora Júnior",
+                "inicio": "2018-03",
+                "fim": "2019-12",
+                "descricao": "Manutenção de sistemas legados..."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharel em Ciência da Computação",
+                "instituicao": "Universidade de São Paulo (USP)",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma de E-learning",
+                "link": "github.com/anacosta/elearning",
+                "descricao": "Desenvolvimento do frontend e backend..."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Solutions Architect - Associate",
+            "Scrum Master Certified (SMC)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            },
+            {
+                "idioma": "Espanhol",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "IA ética",
+            "Educação",
+            "Tecnologia open-source"
+        ]
+    },
+    {
+        "Id": 2,
+        "nome": "Bruno Henrique Almeida",
+        "foto": "https://randomuser.me/api/portraits/men/2.jpg",
+        "cargo": "Analista de Dados",
+        "resumo": "Analista de dados com experiência em ETL, modelagem e visualização de dados.",
+        "localizacao": "Rio de Janeiro/RJ",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Python",
+            "SQL",
+            "Power BI",
+            "ETL",
+            "Pandas"
+        ],
+        "softSkills": [
+            "Pensamento Analítico",
+            "Atenção aos Detalhes",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DataWave",
+                "cargo": "Analista de Dados",
+                "inicio": "2019-06",
+                "fim": "Atual",
+                "descricao": "Construção de pipelines de dados e dashboards para áreas comerciais."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharel em Estatística",
+                "instituicao": "Universidade Federal do Rio de Janeiro (UFRJ)",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Pipeline de Vendas",
+                "link": "github.com/brunohalmeida/sales-pipeline",
+                "descricao": "Automação de ingestão e transformação de dados de vendas."
+            }
+        ],
+        "certificacoes": [
+            "Microsoft Certified: Data Analyst Associate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Machine Learning",
+            "Visual Analytics"
+        ]
+    },
+    {
+        "Id": 3,
+        "nome": "Carla Mendes",
+        "foto": "https://randomuser.me/api/portraits/women/3.jpg",
+        "cargo": "Product Manager",
+        "resumo": "Gerente de produto com foco em produtos SaaS e experiência do usuário.",
+        "localizacao": "Belo Horizonte/MG",
+        "area": "Produto",
+        "habilidadesTecnicas": [
+            "Roadmapping",
+            "Métricas (AARRR)",
+            "UX Research",
+            "SQL"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Tomada de Decisão",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "SaaSly",
+                "cargo": "Product Manager",
+                "inicio": "2021-02",
+                "fim": "Atual",
+                "descricao": "Definição de roadmap e priorização de features."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "MBA em Gestão de Produtos",
+                "instituicao": "Fundação Getulio Vargas (FGV)",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "MVP de Marketplace B2B",
+                "link": "github.com/carlamendes/b2b-marketplace",
+                "descricao": "Liderança do MVP e iterações iniciais baseadas em feedback."
+            }
+        ],
+        "certificacoes": [
+            "Certified Scrum Product Owner (CSPO)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            },
+            {
+                "idioma": "Francês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Design Thinking",
+            "Produtos Financeiros"
+        ]
+    },
+    {
+        "Id": 4,
+        "nome": "Daniel Oliveira",
+        "foto": "https://randomuser.me/api/portraits/men/4.jpg",
+        "cargo": "DevOps Engineer",
+        "resumo": "Engenheiro DevOps especializado em automação, CI/CD e infraestrutura como código.",
+        "localizacao": "Curitiba/PR",
+        "area": "Infraestrutura",
+        "habilidadesTecnicas": [
+            "Terraform",
+            "Kubernetes",
+            "Jenkins",
+            "AWS",
+            "Ansible"
+        ],
+        "softSkills": [
+            "Organização",
+            "Solução de Conflitos",
+            "Proatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "CloudStack",
+                "cargo": "Engenheiro DevOps",
+                "inicio": "2018-09",
+                "fim": "Atual",
+                "descricao": "Automação de pipelines e gerenciamento de clusters Kubernetes."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharel em Engenharia da Computação",
+                "instituicao": "PUC-PR",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Infra as Code para E-commerce",
+                "link": "github.com/danieloliveira/iac-ecommerce",
+                "descricao": "Criação de módulos Terraform para infraestrutura escalável."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified DevOps Engineer"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Observability",
+            "SRE"
+        ]
+    },
+    {
+        "Id": 5,
+        "nome": "Eduarda Santos",
+        "foto": "https://randomuser.me/api/portraits/women/5.jpg",
+        "cargo": "Designer UX/UI",
+        "resumo": "Designer focada em experiências centradas no usuário para web e mobile.",
+        "localizacao": "Porto Alegre/RS",
+        "area": "Design",
+        "habilidadesTecnicas": [
+            "Figma",
+            "Sketch",
+            "Prototipação",
+            "Pesquisa UX",
+            "HTML/CSS Básico"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Empatia",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "PixelWorks",
+                "cargo": "Designer UX/UI",
+                "inicio": "2019-03",
+                "fim": "Atual",
+                "descricao": "Criação de fluxos, wireframes e protótipos de alta fidelidade."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Design Digital",
+                "instituicao": "Universidade do Vale do Rio dos Sinos (UNISINOS)",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "App de Saúde Mental",
+                "link": "github.com/eduardas/mentalcare-ui",
+                "descricao": "Design de interface e testes com usuários."
+            }
+        ],
+        "certificacoes": [
+            "Google UX Design Professional Certificate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            },
+            {
+                "idioma": "Alemão",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Acessibilidade",
+            "Design Inclusivo"
+        ]
+    },
+    {
+        "Id": 6,
+        "nome": "Felipe Costa",
+        "foto": "https://randomuser.me/api/portraits/men/6.jpg",
+        "cargo": "Engenheiro de Machine Learning",
+        "resumo": "Engenheiro de ML com experiência em pipelines de modelagem e deploy em produção.",
+        "localizacao": "São Paulo/SP",
+        "area": "IA/ML",
+        "habilidadesTecnicas": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "Docker",
+            "MLflow"
+        ],
+        "softSkills": [
+            "Curiosidade",
+            "Raciocínio Estatístico",
+            "Comunicação Técnica"
+        ],
+        "experiencias": [
+            {
+                "empresa": "AI Labs",
+                "cargo": "Engenheiro de ML",
+                "inicio": "2020-07",
+                "fim": "Atual",
+                "descricao": "Desenvolvimento e deploy de modelos preditivos para recomendação."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Mestrado em Ciência da Computação",
+                "instituicao": "UNICAMP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Detector de Fraudes",
+                "link": "github.com/felipecosta/fraud-detector",
+                "descricao": "Modelo de classificação e pipeline de scoring em tempo real."
+            }
+        ],
+        "certificacoes": [
+            "IBM Machine Learning Professional Certificate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Explainable AI",
+            "Edge AI"
+        ]
+    },
+    {
+        "Id": 7,
+        "nome": "Gustavo Ribeiro",
+        "foto": "https://randomuser.me/api/portraits/men/7.jpg",
+        "cargo": "Analista de Segurança da Informação",
+        "resumo": "Profissional de segurança com foco em testes de penetração e conformidade.",
+        "localizacao": "Fortaleza/CE",
+        "area": "Segurança",
+        "habilidadesTecnicas": [
+            "Pentest",
+            "SIEM",
+            "Firewalls",
+            "Linux",
+            "OWASP"
+        ],
+        "softSkills": [
+            "Discrição",
+            "Pensamento Crítico",
+            "Detalhismo"
+        ],
+        "experiencias": [
+            {
+                "empresa": "SecureNet",
+                "cargo": "Analista de Segurança",
+                "inicio": "2019-10",
+                "fim": "Atual",
+                "descricao": "Condução de auditorias de segurança e testes de intrusão."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharel em Sistemas de Informação",
+                "instituicao": "Universidade Federal do Ceará (UFC)",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Checklist de Hardening",
+                "link": "github.com/gustavoribeiro/hardening-checklist",
+                "descricao": "Automatização de verificações de segurança em servidores."
+            }
+        ],
+        "certificacoes": [
+            "Certified Ethical Hacker (CEH)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Red Teaming",
+            "Forense Digital"
+        ]
+    },
+    {
+        "Id": 8,
+        "nome": "Helena Ferreira",
+        "foto": "https://randomuser.me/api/portraits/women/8.jpg",
+        "cargo": "Especialista em Marketing Digital",
+        "resumo": "Especialista em campanhas digitais, SEO e estratégias de conteúdo.",
+        "localizacao": "Recife/PE",
+        "area": "Marketing",
+        "habilidadesTecnicas": [
+            "SEO",
+            "Google Ads",
+            "Analytics",
+            "Content Marketing"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Planejamento",
+            "Análise de Dados"
+        ],
+        "experiencias": [
+            {
+                "empresa": "MarketPulse",
+                "cargo": "Especialista em Marketing Digital",
+                "inicio": "2018-08",
+                "fim": "Atual",
+                "descricao": "Gestão de campanhas e otimização de conversão."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Publicidade e Propaganda",
+                "instituicao": "Universidade de Pernambuco (UPE)",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Guia de SEO para E-commerces",
+                "link": "github.com/helenaf/seo-guide",
+                "descricao": "Guia prático com checklists e exemplos."
+            }
+        ],
+        "certificacoes": [
+            "Google Ads Certified",
+            "HubSpot Content Marketing"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            },
+            {
+                "idioma": "Espanhol",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Growth Hacking",
+            "Brand Strategy"
+        ]
+    },
+    {
+        "Id": 9,
+        "nome": "Igor Martins",
+        "foto": "https://randomuser.me/api/portraits/men/9.jpg",
+        "cargo": "Full-Stack Developer",
+        "resumo": "Desenvolvedor full-stack com foco em aplicações web escaláveis.",
+        "localizacao": "Goiânia/GO",
+        "area": "Desenvolvimento",
+        "habilidadesTecnicas": [
+            "React",
+            "Node.js",
+            "PostgreSQL",
+            "TypeScript"
+        ],
+        "softSkills": [
+            "Autonomia",
+            "Colaboração",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DevHouse",
+                "cargo": "Full-Stack Developer",
+                "inicio": "2019-01",
+                "fim": "Atual",
+                "descricao": "Desenvolvimento de aplicações SaaS e integrações API."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharel em Sistemas de Informação",
+                "instituicao": "Universidade Federal de Goiás (UFG)",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Plataforma de Reservas",
+                "link": "github.com/igor-martins/reservas",
+                "descricao": "Sistema de reservas com painel administrativo."
+            }
+        ],
+        "certificacoes": [
+            "Oracle Certified Professional, Java SE"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "APIs",
+            "Microfrontends"
+        ]
+    },
+    {
+        "Id": 10,
+        "nome": "Júlia Pereira",
+        "foto": "https://randomuser.me/api/portraits/women/10.jpg",
+        "cargo": "Engenheira de Qualidade (QA)",
+        "resumo": "Profissional de QA com experiência em testes automatizados e integrados.",
+        "localizacao": "Florianópolis/SC",
+        "area": "Qualidade",
+        "habilidadesTecnicas": [
+            "Selenium",
+            "Cypress",
+            "TestRail",
+            "JavaScript"
+        ],
+        "softSkills": [
+            "Rigor",
+            "Comunicação",
+            "Pensamento Crítico"
+        ],
+        "experiencias": [
+            {
+                "empresa": "QualityWorks",
+                "cargo": "Engenheira de QA",
+                "inicio": "2018-11",
+                "fim": "Atual",
+                "descricao": "Implementação de suíte de testes automatizados e pipelines."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Análise e Desenvolvimento de Sistemas",
+                "instituicao": "IFSC",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Framework de Testes",
+                "link": "github.com/juliapereira/test-framework",
+                "descricao": "Framework para testes end-to-end com Cypress."
+            }
+        ],
+        "certificacoes": [
+            "Certified Tester Foundation Level (CTFL)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Testes de Performance",
+            "Automação"
+        ]
+    },
+    {
+        "Id": 11,
+        "nome": "Katherine Lopes",
+        "foto": "https://randomuser.me/api/portraits/women/11.jpg",
+        "cargo": "Engenheira de Dados",
+        "resumo": "Especialista em arquitetura de dados e pipelines escaláveis.",
+        "localizacao": "Brasília/DF",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Spark",
+            "Kafka",
+            "Python",
+            "AWS Glue",
+            "Redshift"
+        ],
+        "softSkills": [
+            "Planejamento",
+            "Comunicação",
+            "Pensamento Sistêmico"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DataForge",
+                "cargo": "Engenheira de Dados",
+                "inicio": "2020-03",
+                "fim": "Atual",
+                "descricao": "Desenho de pipelines para ingestão em larga escala."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia da Computação",
+                "instituicao": "UnB",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Data Lake Padrão",
+                "link": "github.com/katherinelopes/datalake-pattern",
+                "descricao": "Blueprint de data lake e melhores práticas."
+            }
+        ],
+        "certificacoes": [
+            "Databricks Certified Data Engineer"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Data Governance",
+            "Lakehouse"
+        ]
+    },
+    {
+        "Id": 12,
+        "nome": "Lucas Nascimento",
+        "foto": "https://randomuser.me/api/portraits/men/12.jpg",
+        "cargo": "Mobile Developer",
+        "resumo": "Desenvolvedor mobile com foco em aplicativos nativos e multiplataforma.",
+        "localizacao": "Campinas/SP",
+        "area": "Desenvolvimento",
+        "habilidadesTecnicas": [
+            "React Native",
+            "Kotlin",
+            "Swift",
+            "CI/CD Mobile"
+        ],
+        "softSkills": [
+            "Orientação a Resultado",
+            "Autonomia",
+            "Trabalho em Equipe"
+        ],
+        "experiencias": [
+            {
+                "empresa": "AppMakers",
+                "cargo": "Mobile Developer",
+                "inicio": "2019-05",
+                "fim": "Atual",
+                "descricao": "Desenvolvimento de apps mobile e integração com APIs."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Sistemas para Internet",
+                "instituicao": "UNICAMP",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "App de Finanças Pessoais",
+                "link": "github.com/lucasn/finapp",
+                "descricao": "Controle de despesas com sincronização em nuvem."
+            }
+        ],
+        "certificacoes": [
+            "Google Associate Android Developer"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Mobile Performance",
+            "AR/VR"
+        ]
+    },
+    {
+        "Id": 13,
+        "nome": "Mariana Rocha",
+        "foto": "https://randomuser.me/api/portraits/women/13.jpg",
+        "cargo": "Especialista em Recursos Humanos",
+        "resumo": "Profissional de RH com foco em recrutamento, seleção e employer branding.",
+        "localizacao": "Natal/RN",
+        "area": "RH",
+        "habilidadesTecnicas": [
+            "Recrutamento",
+            "Entrevistas por Competências",
+            "Onboarding"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Negociação",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "PeopleFirst",
+                "cargo": "Especialista de RH",
+                "inicio": "2018-01",
+                "fim": "Atual",
+                "descricao": "Coordenação de processos seletivos e programas de integração."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Administração de Empresas",
+                "instituicao": "UFRN",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Programa de Mentoria",
+                "link": "github.com/mariana-rocha/mentoria",
+                "descricao": "Estruturação de programa de mentoria para novos talentos."
+            }
+        ],
+        "certificacoes": [
+            "SHRM-CP"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Cultura Organizacional",
+            "Desenvolvimento de Talentos"
+        ]
+    },
+    {
+        "Id": 14,
+        "nome": "Nicolas Cardoso",
+        "foto": "https://randomuser.me/api/portraits/men/14.jpg",
+        "cargo": "Engenheiro Front-end",
+        "resumo": "Desenvolvedor front-end especializado em interfaces reativas e acessíveis.",
+        "localizacao": "Vitória/ES",
+        "area": "Desenvolvimento",
+        "habilidadesTecnicas": [
+            "React",
+            "Next.js",
+            "HTML5",
+            "CSS3",
+            "Acessibilidade (a11y)"
+        ],
+        "softSkills": [
+            "Detalhismo",
+            "Colaboração",
+            "Proatividade"
+        ],
+        "experiencias": [
+            {
+                "empresa": "UIFactory",
+                "cargo": "Engenheiro Front-end",
+                "inicio": "2020-02",
+                "fim": "Atual",
+                "descricao": "Construção de componentes reutilizáveis e otimização de carregamento."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharel em Design e Tecnologia",
+                "instituicao": "FAAP",
+                "ano": 2017
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Design System Open",
+                "link": "github.com/nicolasc/design-system",
+                "descricao": "Biblioteca de componentes com foco em acessibilidade."
+            }
+        ],
+        "certificacoes": [
+            "Front-End Developer Nanodegree"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Design Systems",
+            "Performance Web"
+        ]
+    },
+    {
+        "Id": 15,
+        "nome": "Olivia Albuquerque",
+        "foto": "https://randomuser.me/api/portraits/women/15.jpg",
+        "cargo": "Analista Financeiro",
+        "resumo": "Analista com experiência em planejamento financeiro e controle de custos.",
+        "localizacao": "Maceió/AL",
+        "area": "Financeiro",
+        "habilidadesTecnicas": [
+            "Excel Avançado",
+            "Power BI",
+            "Contabilidade Básica"
+        ],
+        "softSkills": [
+            "Organização",
+            "Visão Analítica",
+            "Ética"
+        ],
+        "experiencias": [
+            {
+                "empresa": "FinSolve",
+                "cargo": "Analista Financeiro",
+                "inicio": "2018-04",
+                "fim": "Atual",
+                "descricao": "Elaboração de orçamento e análises de rentabilidade."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Ciências Contábeis",
+                "instituicao": "Universidade Federal de Alagoas (UFAL)",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Modelo de Fluxo de Caixa",
+                "link": "github.com/oliviaalbu/fluxo-caixa",
+                "descricao": "Modelo dinâmico para projeção de caixa e cenários."
+            }
+        ],
+        "certificacoes": [
+            "Certificação em Excel Avançado"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Finanças Corporativas",
+            "Análise de Investimentos"
+        ]
+    },
+    {
+        "Id": 16,
+        "nome": "Paulo Viana",
+        "foto": "https://randomuser.me/api/portraits/men/16.jpg",
+        "cargo": "Arquiteto de Software",
+        "resumo": "Arquiteto com experiência em soluções distribuídas e desenho de sistemas escaláveis.",
+        "localizacao": "São Paulo/SP",
+        "area": "Arquitetura",
+        "habilidadesTecnicas": [
+            "Microservices",
+            "Domain-Driven Design",
+            "AWS",
+            "Event-Driven"
+        ],
+        "softSkills": [
+            "Visão Estratégica",
+            "Mentoria",
+            "Comunicação Técnica"
+        ],
+        "experiencias": [
+            {
+                "empresa": "ArchSoft",
+                "cargo": "Arquiteto de Software",
+                "inicio": "2017-08",
+                "fim": "Atual",
+                "descricao": "Definição de arquitetura e governança técnica."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Mestrado em Engenharia de Software",
+                "instituicao": "PUC-SP",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Blueprint de Microservices",
+                "link": "github.com/pauloviana/microservices-blueprint",
+                "descricao": "Padrões e práticas para adoção de microserviços."
+            }
+        ],
+        "certificacoes": [
+            "TOGAF Foundation"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Observability",
+            "Arquiteturas Event-Driven"
+        ]
+    },
+    {
+        "Id": 17,
+        "nome": "Quésia Ramos",
+        "foto": "https://randomuser.me/api/portraits/women/17.jpg",
+        "cargo": "Analista de Customer Success",
+        "resumo": "Profissional de CS com foco em retenção e sucesso do cliente em SaaS.",
+        "localizacao": "São Luís/MA",
+        "area": "Customer Success",
+        "habilidadesTecnicas": [
+            "Onboarding",
+            "Churn Analysis",
+            "CRM",
+            "Zendesk"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Negociação",
+            "Orientação ao Cliente"
+        ],
+        "experiencias": [
+            {
+                "empresa": "ClientFirst",
+                "cargo": "Analista de CS",
+                "inicio": "2019-07",
+                "fim": "Atual",
+                "descricao": "Gestão de carteira de clientes e programas de engajamento."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Comunicação Social",
+                "instituicao": "UFMA",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Programa de Onboarding",
+                "link": "github.com/quesiaramos/onboarding",
+                "descricao": "Estruturação de trilhas e materiais para novos clientes."
+            }
+        ],
+        "certificacoes": [
+            "Customer Success Management (CSM)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Product Adoption",
+            "Customer Experience"
+        ]
+    },
+    {
+        "Id": 18,
+        "nome": "Rafael Gomes",
+        "foto": "https://randomuser.me/api/portraits/men/18.jpg",
+        "cargo": "Analista de Suporte Técnico",
+        "resumo": "Técnico com experiência em suporte de TI e infraestrutura de redes.",
+        "localizacao": "Porto Velho/RO",
+        "area": "Suporte",
+        "habilidadesTecnicas": [
+            "Windows Server",
+            "Active Directory",
+            "Redes",
+            "Helpdesk"
+        ],
+        "softSkills": [
+            "Paciência",
+            "Comunicação",
+            "Resolução de Problemas"
+        ],
+        "experiencias": [
+            {
+                "empresa": "TechHelp",
+                "cargo": "Analista de Suporte",
+                "inicio": "2017-01",
+                "fim": "Atual",
+                "descricao": "Atendimento a incidentes e manutenção de estações de trabalho."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Técnico em Informática",
+                "instituicao": "IFRO",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Automação de Tickets",
+                "link": "github.com/rafaelg/automacao-tickets",
+                "descricao": "Scripts para priorização automática de chamados."
+            }
+        ],
+        "certificacoes": [
+            "CompTIA A+"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Automação de Suporte",
+            "Soluções On-Premises"
+        ]
+    },
+    {
+        "Id": 19,
+        "nome": "Sofia Andrade",
+        "foto": "https://randomuser.me/api/portraits/women/19.jpg",
+        "cargo": "Especialista em Vendas",
+        "resumo": "Profissional de vendas com experiência em B2B e negociação consultiva.",
+        "localizacao": "João Pessoa/PB",
+        "area": "Vendas",
+        "habilidadesTecnicas": [
+            "CRM",
+            "Pipeline Management",
+            "Prospecção"
+        ],
+        "softSkills": [
+            "Negociação",
+            "Comunicação",
+            "Persistência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "SalesPro",
+                "cargo": "Especialista em Vendas B2B",
+                "inicio": "2018-02",
+                "fim": "Atual",
+                "descricao": "Prospecção de clientes e fechamento de contratos."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Administração",
+                "instituicao": "UFPB",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Playbook Comercial",
+                "link": "github.com/sofiaandrade/sales-playbook",
+                "descricao": "Documentação do processo de vendas e scripts de abordagem."
+            }
+        ],
+        "certificacoes": [
+            "Professional Selling Skills"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Sales Enablement",
+            "Customer Acquisition"
+        ]
+    },
+    {
+        "Id": 20,
+        "nome": "Thiago Carvalho",
+        "foto": "https://randomuser.me/api/portraits/men/20.jpg",
+        "cargo": "Backend Developer",
+        "resumo": "Desenvolvedor backend com experiência em APIs REST e sistemas distribuídos.",
+        "localizacao": "Cuiabá/MT",
+        "area": "Desenvolvimento",
+        "habilidadesTecnicas": [
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "Docker",
+            "Redis"
+        ],
+        "softSkills": [
+            "Solução de Problemas",
+            "Colaboração",
+            "Autonomia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "BackendLabs",
+                "cargo": "Backend Developer",
+                "inicio": "2019-10",
+                "fim": "Atual",
+                "descricao": "Projeto e implementação de APIs e serviços escaláveis."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia da Computação",
+                "instituicao": "UFMT",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "API de Pagamentos",
+                "link": "github.com/thiagoc/api-payments",
+                "descricao": "Serviço de pagamento com tratamento de falhas e retries."
+            }
+        ],
+        "certificacoes": [
+            "Node.js Certified Developer"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Sistemas Distribuídos",
+            "Eventos e Mensageria"
+        ]
+    },
+    {
+        "Id": 21,
+        "nome": "Urislaine Lima",
+        "foto": "https://randomuser.me/api/portraits/women/21.jpg",
+        "cargo": "Especialista em Conteúdo",
+        "resumo": "Criadora de conteúdo com foco em SEO e estratégias de inbound marketing.",
+        "localizacao": "Teresina/PI",
+        "area": "Marketing",
+        "habilidadesTecnicas": [
+            "SEO",
+            "Copywriting",
+            "WordPress",
+            "Analytics"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Comunicação",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "ContentCraft",
+                "cargo": "Especialista em Conteúdo",
+                "inicio": "2017-05",
+                "fim": "Atual",
+                "descricao": "Planejamento e criação de conteúdo para blogs e redes sociais."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Jornalismo",
+                "instituicao": "UFPI",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Calendário Editorial",
+                "link": "github.com/urislainelima/editorial-calendar",
+                "descricao": "Template e processo para planejamento de conteúdo."
+            }
+        ],
+        "certificacoes": [
+            "HubSpot Content Marketing"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Marketing de Conteúdo",
+            "SEO Técnico"
+        ]
+    },
+    {
+        "Id": 22,
+        "nome": "Vitor Souza",
+        "foto": "https://randomuser.me/api/portraits/men/22.jpg",
+        "cargo": "Analista de BI",
+        "resumo": "Analista de BI com foco em modelagem e dashboards para tomada de decisão.",
+        "localizacao": "São Paulo/SP",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Power BI",
+            "SQL",
+            "DAX",
+            "Azure"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Visão Analítica",
+            "Trabalho em Equipe"
+        ],
+        "experiencias": [
+            {
+                "empresa": "InsightDash",
+                "cargo": "Analista de BI",
+                "inicio": "2018-09",
+                "fim": "Atual",
+                "descricao": "Criação de dashboards e automação de relatórios para diretoria."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Administração com ênfase em TI",
+                "instituicao": "FGV",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Dashboard Executivo",
+                "link": "github.com/vitors/dashboard-executive",
+                "descricao": "Dashboards com KPIs financeiros e operacionais."
+            }
+        ],
+        "certificacoes": [
+            "Microsoft Certified: Power BI Data Analyst"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Data Storytelling",
+            "Automação de Relatórios"
+        ]
+    },
+    {
+        "Id": 23,
+        "nome": "Wanessa Duarte",
+        "foto": "https://randomuser.me/api/portraits/women/23.jpg",
+        "cargo": "Especialista em E-commerce",
+        "resumo": "Profissional com experiência em operação e otimização de lojas online.",
+        "localizacao": "Aracaju/SE",
+        "area": "E-commerce",
+        "habilidadesTecnicas": [
+            "Shopify",
+            "Google Analytics",
+            "SEO para E-commerce",
+            "Logística"
+        ],
+        "softSkills": [
+            "Organização",
+            "Foco em Resultado",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "EcomMasters",
+                "cargo": "Especialista em E-commerce",
+                "inicio": "2019-03",
+                "fim": "Atual",
+                "descricao": "Gerenciamento de catálogo, campanhas e parceiros logísticos."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Comércio Eletrônico",
+                "instituicao": "Universidade Tiradentes (UNIT)",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Checklist de Conversão",
+                "link": "github.com/wanessaduarte/conversion-checklist",
+                "descricao": "Guia para otimizar páginas de produto e checkout."
+            }
+        ],
+        "certificacoes": [
+            "Google Analytics Individual Qualification"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Logística Reversa",
+            "Marketplace"
+        ]
+    },
+    {
+        "Id": 24,
+        "nome": "Wellington Freitas",
+        "foto": "https://randomuser.me/api/portraits/men/24.jpg",
+        "cargo": "Administrador de Banco de Dados",
+        "resumo": "DBA com experiência em tunning, replicação e alta disponibilidade.",
+        "localizacao": "Belém/PA",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "PostgreSQL",
+            "MySQL",
+            "Backup/Recovery",
+            "Replication"
+        ],
+        "softSkills": [
+            "Rigor",
+            "Resiliência",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DBMasters",
+                "cargo": "DBA Sênior",
+                "inicio": "2016-10",
+                "fim": "Atual",
+                "descricao": "Gestão de bancos de dados críticos e planos de contingência."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Sistemas de Informação",
+                "instituicao": "UFPA",
+                "ano": 2011
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Automação de Backups",
+                "link": "github.com/wellingtonf/backups-automation",
+                "descricao": "Scripts e rotinas para backup e restore automatizados."
+            }
+        ],
+        "certificacoes": [
+            "Oracle DBA Certified"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Alta Disponibilidade",
+            "Disaster Recovery"
+        ]
+    },
+    {
+        "Id": 25,
+        "nome": "Ximena Valente",
+        "foto": "https://randomuser.me/api/portraits/women/25.jpg",
+        "cargo": "Analista de Projetos",
+        "resumo": "Gerente de projetos júnior com conhecimento em metodologias ágeis.",
+        "localizacao": "Campo Grande/MS",
+        "area": "Projetos",
+        "habilidadesTecnicas": [
+            "Scrum",
+            "Kanban",
+            "JIRA",
+            "MS Project"
+        ],
+        "softSkills": [
+            "Organização",
+            "Liderança",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Projeta",
+                "cargo": "Analista de Projetos",
+                "inicio": "2018-06",
+                "fim": "Atual",
+                "descricao": "Suporte na condução de squads e acompanhamento de entregas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Administração",
+                "instituicao": "UFMS",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Template de Gestão Ágil",
+                "link": "github.com/ximenavalente/agile-templates",
+                "descricao": "Modelos para planejamento e acompanhamento de sprints."
+            }
+        ],
+        "certificacoes": [
+            "Certified Scrum Master (CSM)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Gestão Ágil",
+            "PMO"
+        ]
+    },
+    {
+        "Id": 26,
+        "nome": "Yago Mendes",
+        "foto": "https://randomuser.me/api/portraits/men/26.jpg",
+        "cargo": "Técnico de Telecomunicações",
+        "resumo": "Técnico com experiência em instalação e manutenção de redes de telecom.",
+        "localizacao": "Macapá/AP",
+        "area": "Telecom",
+        "habilidadesTecnicas": [
+            "Fibra Óptica",
+            "Configuração de Roteadores",
+            "FTTx"
+        ],
+        "softSkills": [
+            "Trabalho em Campo",
+            "Organização",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "LinkTel",
+                "cargo": "Técnico de Telecom",
+                "inicio": "2016-07",
+                "fim": "Atual",
+                "descricao": "Instalação e manutenção de redes de acesso e backbone."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Técnico em Telecomunicações",
+                "instituicao": "IFAP",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Mapeamento de Fibra",
+                "link": "github.com/yagomendes/fiber-mapping",
+                "descricao": "Ferramenta simples para inventário de enlaces ópticos."
+            }
+        ],
+        "certificacoes": [
+            "FOA Certified Fiber Optic Technician"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "5G",
+            "FTTx"
+        ]
+    },
+    {
+        "Id": 27,
+        "nome": "Zélia Castro",
+        "foto": "https://randomuser.me/api/portraits/women/27.jpg",
+        "cargo": "Especialista em Compliance",
+        "resumo": "Profissional de compliance com experiência em controles internos e políticas.",
+        "localizacao": "Boa Vista/RR",
+        "area": "Compliance",
+        "habilidadesTecnicas": [
+            "Políticas Corporativas",
+            "Riscos",
+            "Controles Internos"
+        ],
+        "softSkills": [
+            "Integridade",
+            "Análise Crítica",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "GovernanceCorp",
+                "cargo": "Especialista em Compliance",
+                "inicio": "2017-11",
+                "fim": "Atual",
+                "descricao": "Desenvolvimento e monitoramento de políticas de conformidade."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Direito",
+                "instituicao": "UFRR",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Manual de Compliance",
+                "link": "github.com/zeliacastro/compliance-manual",
+                "descricao": "Compilado de políticas e procedimentos para PME."
+            }
+        ],
+        "certificacoes": [
+            "Certificação em Compliance e Anticorrupção"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Governança Corporativa",
+            "Risco Regulatório"
+        ]
+    },
+    {
+        "Id": 28,
+        "nome": "Aline Moreira",
+        "foto": "https://randomuser.me/api/portraits/women/28.jpg",
+        "cargo": "Especialista em Sucesso do Produto",
+        "resumo": "Profissional dedicada a aumentar engajamento e adoção de produtos digitais.",
+        "localizacao": "Vitória da Conquista/BA",
+        "area": "Produto",
+        "habilidadesTecnicas": [
+            "Onboarding",
+            "Cohort Analysis",
+            "Product Analytics"
+        ],
+        "softSkills": [
+            "Empatia",
+            "Comunicação",
+            "Orientação ao Cliente"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Produtiva",
+                "cargo": "Especialista em Sucesso do Produto",
+                "inicio": "2020-01",
+                "fim": "Atual",
+                "descricao": "Estratégias para redução de churn e aumento de NPS."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Psicologia",
+                "instituicao": "UFRB",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Playbook de Adoção",
+                "link": "github.com/alinemo/playbook-adocao",
+                "descricao": "Processos e gatilhos para aumentar retenção."
+            }
+        ],
+        "certificacoes": [
+            "Product-Led Growth (PLG) Certification"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Adoção de Produto",
+            "User Research"
+        ]
+    },
+    {
+        "Id": 29,
+        "nome": "Bruna Albuquerque",
+        "foto": "https://randomuser.me/api/portraits/women/29.jpg",
+        "cargo": "Cloud Engineer",
+        "resumo": "Engenheira de nuvem com experiência em migração e otimização de custos.",
+        "localizacao": "São Paulo/SP",
+        "area": "Cloud",
+        "habilidadesTecnicas": [
+            "AWS",
+            "GCP",
+            "Cost Optimization",
+            "IaC"
+        ],
+        "softSkills": [
+            "Análise Crítica",
+            "Comunicação",
+            "Planejamento"
+        ],
+        "experiencias": [
+            {
+                "empresa": "CloudSmart",
+                "cargo": "Cloud Engineer",
+                "inicio": "2019-07",
+                "fim": "Atual",
+                "descricao": "Migração de workloads e controle de custos na nuvem."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia da Computação",
+                "instituicao": "Mackenzie",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Migração Lift-and-Shift",
+                "link": "github.com/brunaalb/migration-lift-shift",
+                "descricao": "Processo de migração e automação de infra na AWS."
+            }
+        ],
+        "certificacoes": [
+            "AWS Certified Solutions Architect"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "FinOps",
+            "Serverless"
+        ]
+    },
+    {
+        "Id": 30,
+        "nome": "Carlos Renato",
+        "foto": "https://randomuser.me/api/portraits/men/30.jpg",
+        "cargo": "Engenheiro de Testes de Performance",
+        "resumo": "Especialista em testes de carga e análise de performance de sistemas.",
+        "localizacao": "Londrina/PR",
+        "area": "Qualidade",
+        "habilidadesTecnicas": [
+            "JMeter",
+            "Gatling",
+            "Load Testing",
+            "Monitoring"
+        ],
+        "softSkills": [
+            "Análise",
+            "Metodicidade",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "PerfLab",
+                "cargo": "Engenheiro de Performance",
+                "inicio": "2018-02",
+                "fim": "Atual",
+                "descricao": "Planejamento e execução de testes de carga para aplicações críticas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia de Software",
+                "instituicao": "UEL",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Benchmark Framework",
+                "link": "github.com/carlosr/benchmark-framework",
+                "descricao": "Framework para testes de performance e geração de relatórios."
+            }
+        ],
+        "certificacoes": [
+            "Certified JMeter Performance Tester"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Performance Engineering",
+            "Observability"
+        ]
+    },
+    {
+        "Id": 31,
+        "nome": "Débora Figueiredo",
+        "foto": "https://randomuser.me/api/portraits/women/31.jpg",
+        "cargo": "Copywriter",
+        "resumo": "Redatora publicitária com foco em conversão e storytelling para marcas.",
+        "localizacao": "Petrópolis/RJ",
+        "area": "Comunicação",
+        "habilidadesTecnicas": [
+            "Copywriting",
+            "SEO Copy",
+            "Storytelling",
+            "Brand Voice"
+        ],
+        "softSkills": [
+            "Criatividade",
+            "Pesquisa",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "AgênciaViva",
+                "cargo": "Copywriter",
+                "inicio": "2017-01",
+                "fim": "Atual",
+                "descricao": "Criação de peças publicitárias, roteiros e conteúdos para campanhas."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Comunicação Social - Publicidade",
+                "instituicao": "UFRJ",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Guia de Tom de Voz",
+                "link": "github.com/deboraf/tom-de-voz",
+                "descricao": "Estrutura para definição e aplicação de voice guidelines."
+            }
+        ],
+        "certificacoes": [
+            "Copywriting Essentials"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Brand Storytelling",
+            "UX Writing"
+        ]
+    },
+    {
+        "Id": 32,
+        "nome": "Emanuel Pinto",
+        "foto": "https://randomuser.me/api/portraits/men/32.jpg",
+        "cargo": "Analista de Dados Júnior",
+        "resumo": "Iniciante em análise de dados com foco em ETL e visualização.",
+        "localizacao": "Bauru/SP",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "SQL",
+            "Excel",
+            "Tableau",
+            "Python Básico"
+        ],
+        "softSkills": [
+            "Aprendizado Rápido",
+            "Curiosidade",
+            "Trabalho em Equipe"
+        ],
+        "experiencias": [
+            {
+                "empresa": "StartData",
+                "cargo": "Analista de Dados Júnior",
+                "inicio": "2021-03",
+                "fim": "Atual",
+                "descricao": "Suporte em coleta e limpeza de dados para análises."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Análise de Sistemas",
+                "instituicao": "UNESP",
+                "ano": 2020
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Relatórios de Vendas",
+                "link": "github.com/emanuelp/relatorios-vendas",
+                "descricao": "Dashboards para acompanhar KPIs comerciais."
+            }
+        ],
+        "certificacoes": [
+            "Excel for Data Analysis"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Data Engineering",
+            "Business Intelligence"
+        ]
+    },
+    {
+        "Id": 33,
+        "nome": "Fabiana Lima",
+        "foto": "https://randomuser.me/api/portraits/women/33.jpg",
+        "cargo": "Coordenadora de Atendimento",
+        "resumo": "Coordenadora com experiência em suporte ao cliente e SLA management.",
+        "localizacao": "Juiz de Fora/MG",
+        "area": "Atendimento",
+        "habilidadesTecnicas": [
+            "SLA Management",
+            "Zendesk",
+            "KPI Tracking"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Empatia",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "SupportHub",
+                "cargo": "Coordenadora de Atendimento",
+                "inicio": "2018-05",
+                "fim": "Atual",
+                "descricao": "Coordenação de equipe e definição de processos de atendimento."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Administração",
+                "instituicao": "UFJF",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Programa de Capacitação",
+                "link": "github.com/fabianalima/training-program",
+                "descricao": "Material e trilhas para desenvolvimento de agentes."
+            }
+        ],
+        "certificacoes": [
+            "ITIL Foundation"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Customer Experience",
+            "Process Improvement"
+        ]
+    },
+    {
+        "Id": 34,
+        "nome": "Gleison Almeida",
+        "foto": "https://randomuser.me/api/portraits/men/34.jpg",
+        "cargo": "Engenheiro de Automação",
+        "resumo": "Profissional com experiência em automação industrial e PLCs.",
+        "localizacao": "Ribeirão Preto/SP",
+        "area": "Automação",
+        "habilidadesTecnicas": [
+            "PLCs",
+            "SCADA",
+            "Python",
+            "Instrumentação"
+        ],
+        "softSkills": [
+            "Raciocínio Lógico",
+            "Trabalho em Equipe",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "AutoTech",
+                "cargo": "Engenheiro de Automação",
+                "inicio": "2016-08",
+                "fim": "Atual",
+                "descricao": "Projetos de automação e integração de máquinas industriais."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia Elétrica",
+                "instituicao": "UNAERP",
+                "ano": 2012
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "PLC Patterns",
+                "link": "github.com/gleisonalmeida/plc-patterns",
+                "descricao": "Templates para programação modular de PLCs."
+            }
+        ],
+        "certificacoes": [
+            "Siemens S7 Certified"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "IoT Industrial",
+            "Indústria 4.0"
+        ]
+    },
+    {
+        "Id": 35,
+        "nome": "Hugo Teixeira",
+        "foto": "https://randomuser.me/api/portraits/men/35.jpg",
+        "cargo": "Analista de Logística",
+        "resumo": "Especialista em operações logísticas, estoque e cadeia de suprimentos.",
+        "localizacao": "São José dos Campos/SP",
+        "area": "Logística",
+        "habilidadesTecnicas": [
+            "WMS",
+            "Planejamento de Demanda",
+            "ERP"
+        ],
+        "softSkills": [
+            "Organização",
+            "Negociação",
+            "Planejamento"
+        ],
+        "experiencias": [
+            {
+                "empresa": "LogiCorp",
+                "cargo": "Analista de Logística",
+                "inicio": "2017-09",
+                "fim": "Atual",
+                "descricao": "Gerenciamento de estoque e otimização de roteiros."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Administração",
+                "instituicao": "UNITAU",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Otimização de Roteiros",
+                "link": "github.com/hugoteixeira/roteiros",
+                "descricao": "Algoritmo simples para priorização de entregas."
+            }
+        ],
+        "certificacoes": [
+            "Logistics Management Certificate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Supply Chain",
+            "Sustentabilidade Logística"
+        ]
+    },
+    {
+        "Id": 36,
+        "nome": "Isabela Fonseca",
+        "foto": "https://randomuser.me/api/portraits/women/36.jpg",
+        "cargo": "Data Scientist",
+        "resumo": "Cientista de dados com foco em NLP e análise preditiva.",
+        "localizacao": "São Paulo/SP",
+        "area": "IA/ML",
+        "habilidadesTecnicas": [
+            "Python",
+            "NLP",
+            "Scikit-learn",
+            "Deep Learning"
+        ],
+        "softSkills": [
+            "Curiosidade",
+            "Comunicação Científica",
+            "Colaboração"
+        ],
+        "experiencias": [
+            {
+                "empresa": "NLP Labs",
+                "cargo": "Data Scientist",
+                "inicio": "2019-11",
+                "fim": "Atual",
+                "descricao": "Projetos de processamento de linguagem natural e classificação de texto."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Doutorado em Ciência da Computação",
+                "instituicao": "USP",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Classificador de Sentimento",
+                "link": "github.com/isabelaf/sentiment-classifier",
+                "descricao": "Pipeline completo de NLP para análise de sentimento em redes sociais."
+            }
+        ],
+        "certificacoes": [
+            "Deep Learning Specialization (Coursera)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            },
+            {
+                "idioma": "Espanhol",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "NLP Multilíngue",
+            "Modelos de Linguagem"
+        ]
+    },
+    {
+        "Id": 37,
+        "nome": "João Pedro Silva",
+        "foto": "https://randomuser.me/api/portraits/men/37.jpg",
+        "cargo": "Estagiário de Desenvolvimento",
+        "resumo": "Estagiário em desenvolvimento web com desejo de aprender e evoluir.",
+        "localizacao": "Franca/SP",
+        "area": "Desenvolvimento",
+        "habilidadesTecnicas": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React Básico"
+        ],
+        "softSkills": [
+            "Aprendizado Rápido",
+            "Proatividade",
+            "Trabalho em Equipe"
+        ],
+        "experiencias": [
+            {
+                "empresa": "StartUP",
+                "cargo": "Estagiário de Desenvolvimento",
+                "inicio": "2022-02",
+                "fim": "Atual",
+                "descricao": "Apoio no desenvolvimento de interfaces e correção de bugs."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Análise e Desenvolvimento de Sistemas",
+                "instituicao": "UNIFRAN",
+                "ano": 2023
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Portfolio Pessoal",
+                "link": "github.com/joaopedro/portfolio",
+                "descricao": "Site pessoal com projetos e contato."
+            }
+        ],
+        "certificacoes": [
+            "Curso Front-end Básico"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Front-end",
+            "Acessibilidade"
+        ]
+    },
+    {
+        "Id": 38,
+        "nome": "Karen Barbosa",
+        "foto": "https://randomuser.me/api/portraits/women/38.jpg",
+        "cargo": "Analista de Segurança Cibernética",
+        "resumo": "Especialista em segurança com foco em detecção e resposta a incidentes.",
+        "localizacao": "Cabo Frio/RJ",
+        "area": "Segurança",
+        "habilidadesTecnicas": [
+            "SIEM",
+            "Forense",
+            "Endpoint Protection",
+            "Python"
+        ],
+        "softSkills": [
+            "Calma sob Pressão",
+            "Detalhismo",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "CyberWatch",
+                "cargo": "Analista de Segurança",
+                "inicio": "2018-10",
+                "fim": "Atual",
+                "descricao": "Monitoramento e resposta a incidentes de segurança."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Sistemas de Informação",
+                "instituicao": "UENF",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Playbook IR",
+                "link": "github.com/karenb/playbook-ir",
+                "descricao": "Procedimentos padrão para resposta a incidentes."
+            }
+        ],
+        "certificacoes": [
+            "CompTIA Security+"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Threat Hunting",
+            "Forense Digital"
+        ]
+    },
+    {
+        "Id": 39,
+        "nome": "Leonardo Pires",
+        "foto": "https://randomuser.me/api/portraits/men/39.jpg",
+        "cargo": "Full-Stack Engineer",
+        "resumo": "Engenheiro full-stack com experiência em aplicações em nuvem e microserviços.",
+        "localizacao": "Ribeirão das Neves/MG",
+        "area": "Desenvolvimento",
+        "habilidadesTecnicas": [
+            "React",
+            "Node.js",
+            "Docker",
+            "Kubernetes"
+        ],
+        "softSkills": [
+            "Colaboração",
+            "Mentoria",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "StackBuilders",
+                "cargo": "Full-Stack Engineer",
+                "inicio": "2018-03",
+                "fim": "Atual",
+                "descricao": "Desenvolvimento de features end-to-end e revisão de código."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Ciência da Computação",
+                "instituicao": "UNA",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Microservices Demo",
+                "link": "github.com/leonardopires/microservices-demo",
+                "descricao": "Exemplo de arquitetura com comunicação via eventos."
+            }
+        ],
+        "certificacoes": [
+            "Certified Kubernetes Application Developer"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Microservices",
+            "Cloud Native"
+        ]
+    },
+    {
+        "Id": 40,
+        "nome": "Marcos Vinícius",
+        "foto": "https://randomuser.me/api/portraits/men/40.jpg",
+        "cargo": "Analista de Sistemas",
+        "resumo": "Analista com experiência em levantamento de requisitos e especificações técnicas.",
+        "localizacao": "Mogi das Cruzes/SP",
+        "area": "Análise",
+        "habilidadesTecnicas": [
+            "UML",
+            "Requisitos",
+            "SQL",
+            "Documentação Técnica"
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Organização",
+            "Negociação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "SoftSpec",
+                "cargo": "Analista de Sistemas",
+                "inicio": "2016-06",
+                "fim": "Atual",
+                "descricao": "Levantamento de requisitos e integração entre áreas técnica e de negócio."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Sistemas de Informação",
+                "instituicao": "UNESP",
+                "ano": 2012
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Template de Especificação",
+                "link": "github.com/marcosv/template-espec",
+                "descricao": "Modelo para documentação de requisitos e casos de uso."
+            }
+        ],
+        "certificacoes": [
+            "Business Analysis Certificate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Análise de Negócio",
+            "Modelagem de Processos"
+        ]
+    },
+    {
+        "Id": 41,
+        "nome": "Natália Reis",
+        "foto": "https://randomuser.me/api/portraits/women/41.jpg",
+        "cargo": "Engenheira Ambiental",
+        "resumo": "Engenheira com foco em sustentabilidade e projetos ambientais.",
+        "localizacao": "Caxias do Sul/RS",
+        "area": "Meio Ambiente",
+        "habilidadesTecnicas": [
+            "Licenciamento Ambiental",
+            "Gestão de Resíduos",
+            "Avaliação de Impacto"
+        ],
+        "softSkills": [
+            "Ética",
+            "Organização",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "GreenWorks",
+                "cargo": "Engenheira Ambiental",
+                "inicio": "2016-03",
+                "fim": "Atual",
+                "descricao": "Atuação em projetos de impacto ambiental e programas de sustentabilidade."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia Ambiental",
+                "instituicao": "UCS",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Gestão de Resíduos",
+                "link": "github.com/nataliareis/gestao-residuos",
+                "descricao": "Plano de gerenciamento para indústria de médio porte."
+            }
+        ],
+        "certificacoes": [
+            "Auditor Ambiental"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Economia Circular",
+            "Energia Renovável"
+        ]
+    },
+    {
+        "Id": 42,
+        "nome": "Otávio Barros",
+        "foto": "https://randomuser.me/api/portraits/men/42.jpg",
+        "cargo": "Engenheiro Civil",
+        "resumo": "Engenheiro civil com experiência em obras e gerenciamento de projetos.",
+        "localizacao": "Sorocaba/SP",
+        "area": "Engenharia",
+        "habilidadesTecnicas": [
+            "AutoCAD",
+            "Gestão de Obras",
+            "Orçamentos",
+            "MS Project"
+        ],
+        "softSkills": [
+            "Planejamento",
+            "Liderança",
+            "Negociação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Construa",
+                "cargo": "Engenheiro Civil",
+                "inicio": "2015-04",
+                "fim": "Atual",
+                "descricao": "Gerenciamento de obras residenciais e comerciais."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia Civil",
+                "instituicao": "Unesp",
+                "ano": 2012
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Planner de Obras",
+                "link": "github.com/otaviobarros/planner-obras",
+                "descricao": "Ferramenta simples para acompanhamento de cronogramas."
+            }
+        ],
+        "certificacoes": [
+            "PMP (Project Management Professional)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Construção Sustentável",
+            "BIM"
+        ]
+    },
+    {
+        "Id": 43,
+        "nome": "Patrícia Gomes",
+        "foto": "https://randomuser.me/api/portraits/women/43.jpg",
+        "cargo": "Analista Fiscal",
+        "resumo": "Especialista em tributos, compliance fiscal e rotinas contábeis.",
+        "localizacao": "Piracicaba/SP",
+        "area": "Fiscal",
+        "habilidadesTecnicas": [
+            "Sped",
+            "Nota Fiscal Eletrônica",
+            "Tributação"
+        ],
+        "softSkills": [
+            "Rigor",
+            "Organização",
+            "Ética"
+        ],
+        "experiencias": [
+            {
+                "empresa": "FiscalTech",
+                "cargo": "Analista Fiscal",
+                "inicio": "2016-01",
+                "fim": "Atual",
+                "descricao": "Execução de obrigações fiscais e apuração de impostos."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Ciências Contábeis",
+                "instituicao": "UNIMEP",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Automação de SPED",
+                "link": "github.com/patriciag/automatiza-sped",
+                "descricao": "Scripts para validação e montagem de arquivos fiscais."
+            }
+        ],
+        "certificacoes": [
+            "Certificação em Legislação Tributária"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Compliance Fiscal",
+            "Planejamento Tributário"
+        ]
+    },
+    {
+        "Id": 44,
+        "nome": "Rafaela Mendes",
+        "foto": "https://randomuser.me/api/portraits/women/44.jpg",
+        "cargo": "Designer Instrucional",
+        "resumo": "Profissional focada em desenvolvimento de cursos online e conteúdo educacional.",
+        "localizacao": "Cabo de Santo Agostinho/PE",
+        "area": "Educação",
+        "habilidadesTecnicas": [
+            "Autor Tools",
+            "EAD",
+            "Storyboarding",
+            "Multimídia"
+        ],
+        "softSkills": [
+            "Didática",
+            "Criatividade",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "EducaOnline",
+                "cargo": "Designer Instrucional",
+                "inicio": "2018-09",
+                "fim": "Atual",
+                "descricao": "Desenvolvimento de cursos e trilhas de aprendizagem."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Pedagogia",
+                "instituicao": "UFPE",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Curso de Capacitação",
+                "link": "github.com/rafaelamendes/ead-capacitacao",
+                "descricao": "Curso online para desenvolvimento de habilidades técnicas."
+            }
+        ],
+        "certificacoes": [
+            "Instrucional Design Certificate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Microlearning",
+            "Avaliação Formativa"
+        ]
+    },
+    {
+        "Id": 45,
+        "nome": "Sérgio Andrade",
+        "foto": "https://randomuser.me/api/portraits/men/45.jpg",
+        "cargo": "Especialista em SEO Técnico",
+        "resumo": "Profissional de SEO com foco em performance e arquitetura de informação.",
+        "localizacao": "São Paulo/SP",
+        "area": "Marketing",
+        "habilidadesTecnicas": [
+            "SEO Técnico",
+            "Core Web Vitals",
+            "Crawling",
+            "Analytics"
+        ],
+        "softSkills": [
+            "Análise",
+            "Comunicação",
+            "Detalhismo"
+        ],
+        "experiencias": [
+            {
+                "empresa": "RankingUp",
+                "cargo": "Especialista SEO Técnico",
+                "inicio": "2017-05",
+                "fim": "Atual",
+                "descricao": "Auditorias técnicas e otimização para motores de busca."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Marketing",
+                "instituicao": "ESPM",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Audit Toolkit",
+                "link": "github.com/sergioandrade/seo-audit-toolkit",
+                "descricao": "Ferramentas e checklists para auditoria técnica de sites."
+            }
+        ],
+        "certificacoes": [
+            "Google Analytics Certified"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Web Performance",
+            "Search Console Insights"
+        ]
+    },
+    {
+        "Id": 46,
+        "nome": "Tatiane Oliveira",
+        "foto": "https://randomuser.me/api/portraits/women/46.jpg",
+        "cargo": "Consultora de Transformação Digital",
+        "resumo": "Consultora com foco em inovação, transformação e adoção tecnológica.",
+        "localizacao": "Uberlândia/MG",
+        "area": "Consultoria",
+        "habilidadesTecnicas": [
+            "Change Management",
+            "Digital Strategy",
+            "Roadmapping"
+        ],
+        "softSkills": [
+            "Visão Estratégica",
+            "Facilitação",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DigitalUp",
+                "cargo": "Consultora",
+                "inicio": "2018-01",
+                "fim": "Atual",
+                "descricao": "Projetos de transformação digital e capacitação de equipes."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "MBA em Transformação Digital",
+                "instituicao": "FGV",
+                "ano": 2018
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Roteiro de Transformação",
+                "link": "github.com/tatianeoliveira/transformacao",
+                "descricao": "Framework para condução de iniciativas digitais."
+            }
+        ],
+        "certificacoes": [
+            "Lean Six Sigma Green Belt"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Inovação Aberta",
+            "Cultura Digital"
+        ]
+    },
+    {
+        "Id": 47,
+        "nome": "Úrsulo Mendes",
+        "foto": "https://randomuser.me/api/portraits/men/47.jpg",
+        "cargo": "Técnico em Manutenção",
+        "resumo": "Profissional de manutenção com experiência em equipamentos industriais.",
+        "localizacao": "Araraquara/SP",
+        "area": "Manutenção",
+        "habilidadesTecnicas": [
+            "Manutenção Preventiva",
+            "Diagnóstico",
+            "Segurança do Trabalho"
+        ],
+        "softSkills": [
+            "Proatividade",
+            "Trabalho em Equipe",
+            "Resiliência"
+        ],
+        "experiencias": [
+            {
+                "empresa": "IndusMan",
+                "cargo": "Técnico de Manutenção",
+                "inicio": "2015-02",
+                "fim": "Atual",
+                "descricao": "Manutenção e reparos em linhas de produção."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Técnico em Eletrotécnica",
+                "instituicao": "SENAI",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Checklists de Manutenção",
+                "link": "github.com/ursulom/checklists-manutencao",
+                "descricao": "Modelos para inspeção diária e preventiva."
+            }
+        ],
+        "certificacoes": [
+            "NR-10"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Manutenção Preditiva",
+            "IoT"
+        ]
+    },
+    {
+        "Id": 48,
+        "nome": "Valentina Souza",
+        "foto": "https://randomuser.me/api/portraits/women/48.jpg",
+        "cargo": "Analista de Comunicação Interna",
+        "resumo": "Profissional de comunicação com foco em engajamento interno e endomarketing.",
+        "localizacao": "Barueri/SP",
+        "area": "Comunicação",
+        "habilidadesTecnicas": [
+            "Comunicação Interna",
+            "Produção de Conteúdo",
+            "Eventos"
+        ],
+        "softSkills": [
+            "Relacionamento",
+            "Criatividade",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "ComuniCorp",
+                "cargo": "Analista de Comunicação Interna",
+                "inicio": "2019-08",
+                "fim": "Atual",
+                "descricao": "Desenvolvimento de campanhas internas e gestão de canais."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Comunicação Social",
+                "instituicao": "FAAP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Manual de Comunicação Interna",
+                "link": "github.com/valentinas/manual-comunicacao",
+                "descricao": "Diretrizes para comunicação com colaboradores."
+            }
+        ],
+        "certificacoes": [
+            "Employer Branding Certificate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Engajamento",
+            "Cultura Organizacional"
+        ]
+    },
+    {
+        "Id": 49,
+        "nome": "Wagner Rocha",
+        "foto": "https://randomuser.me/api/portraits/men/49.jpg",
+        "cargo": "Técnico de Segurança do Trabalho",
+        "resumo": "Profissional dedicado à prevenção de riscos e segurança ocupacional.",
+        "localizacao": "Itajaí/SC",
+        "area": "Segurança do Trabalho",
+        "habilidadesTecnicas": [
+            "NRs",
+            "PPRA",
+            "PCMSO",
+            "Inspeções de Segurança"
+        ],
+        "softSkills": [
+            "Observação",
+            "Comunicação",
+            "Disciplina"
+        ],
+        "experiencias": [
+            {
+                "empresa": "SegurPlus",
+                "cargo": "Técnico de Segurança",
+                "inicio": "2016-03",
+                "fim": "Atual",
+                "descricao": "Elaboração de relatórios e programas de prevenção."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Técnico em Segurança do Trabalho",
+                "instituicao": "SENAI",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Programa de Segurança",
+                "link": "github.com/wagnerrocha/seguranca-programa",
+                "descricao": "Modelos e templates para implementação de PPRA/PCMSO."
+            }
+        ],
+        "certificacoes": [
+            "NR-35"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Saúde Ocupacional",
+            "Cultura de Segurança"
+        ]
+    },
+    {
+        "Id": 50,
+        "nome": "Yasmin Costa",
+        "foto": "https://randomuser.me/api/portraits/women/50.jpg",
+        "cargo": "Analista de Dados Sênior",
+        "resumo": "Analista de dados com experiência avançada em modelagem e análises preditivas.",
+        "localizacao": "Campina Grande/PB",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "Cloud Analytics"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Comunicação",
+            "Visão Analítica"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DataVision",
+                "cargo": "Analista de Dados Sênior",
+                "inicio": "2019-04",
+                "fim": "Atual",
+                "descricao": "Liderança técnica em projetos analíticos e mentoring."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Mestrado em Estatística Aplicada",
+                "instituicao": "UFPB",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Modelos de Churn",
+                "link": "github.com/yasminc/modelos-churn",
+                "descricao": "Pipeline de previsão de churn e ações de retenção."
+            }
+        ],
+        "certificacoes": [
+            "Azure Data Scientist Associate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Causal Inference",
+            "MLOps"
+        ]
+    },
+    {
+        "Id": 51,
+        "nome": "André Luiz",
+        "foto": "https://randomuser.me/api/portraits/men/51.jpg",
+        "cargo": "DevOps Sênior",
+        "resumo": "Especialista em pipelines de CI/CD, automação e infraestrutura escalável.",
+        "localizacao": "São Paulo/SP",
+        "area": "Infraestrutura",
+        "habilidadesTecnicas": [
+            "Jenkins",
+            "Terraform",
+            "Kubernetes",
+            "Prometheus"
+        ],
+        "softSkills": [
+            "Mentoria",
+            "Planejamento",
+            "Resolução de Problemas"
+        ],
+        "experiencias": [
+            {
+                "empresa": "OpsPro",
+                "cargo": "DevOps Sênior",
+                "inicio": "2017-02",
+                "fim": "Atual",
+                "descricao": "Construção e manutenção de pipelines e infraestrutura automatizada."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia de Software",
+                "instituicao": "FAAP",
+                "ano": 2012
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Pipeline-as-Code",
+                "link": "github.com/andredev/pipeline-as-code",
+                "descricao": "Templates para CI/CD em múltiplos provedores."
+            }
+        ],
+        "certificacoes": [
+            "CKA (Certified Kubernetes Administrator)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Observability",
+            "Infrastructure as Code"
+        ]
+    },
+    {
+        "Id": 52,
+        "nome": "Beatriz Nunes",
+        "foto": "https://randomuser.me/api/portraits/women/52.jpg",
+        "cargo": "Analista de Produto Jr.",
+        "resumo": "Analista de produto júnior com experiência em pesquisa de usuários.",
+        "localizacao": "Santos/SP",
+        "area": "Produto",
+        "habilidadesTecnicas": [
+            "User Research",
+            "Wireframing",
+            "Analytics Básico"
+        ],
+        "softSkills": [
+            "Curiosidade",
+            "Comunicação",
+            "Empatia"
+        ],
+        "experiencias": [
+            {
+                "empresa": "ProdStart",
+                "cargo": "Analista de Produto Jr.",
+                "inicio": "2020-09",
+                "fim": "Atual",
+                "descricao": "Apoio em pesquisas e testes com usuários."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Design de Produto",
+                "instituicao": "UNISANTA",
+                "ano": 2019
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Pesquisa de Usuário",
+                "link": "github.com/beatrizn/pesquisa-usuario",
+                "descricao": "Metodologia e resultados de estudos qualitativos."
+            }
+        ],
+        "certificacoes": [
+            "Introduction to Product Management"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Pesquisa Qualitativa",
+            "Design Centrado no Usuário"
+        ]
+    },
+    {
+        "Id": 53,
+        "nome": "Caio Fernandes",
+        "foto": "https://randomuser.me/api/portraits/men/53.jpg",
+        "cargo": "Administrador de Redes",
+        "resumo": "Administrador com experiência em redes corporativas e segurança.",
+        "localizacao": "Poços de Caldas/MG",
+        "area": "Redes",
+        "habilidadesTecnicas": [
+            "Cisco",
+            "Routing",
+            "Switching",
+            "Firewall"
+        ],
+        "softSkills": [
+            "Resolução de Problemas",
+            "Organização",
+            "Trabalho em Equipe"
+        ],
+        "experiencias": [
+            {
+                "empresa": "NetCorp",
+                "cargo": "Administrador de Redes",
+                "inicio": "2015-08",
+                "fim": "Atual",
+                "descricao": "Implantação e manutenção de infraestrutura de rede."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia de Redes",
+                "instituicao": "FATEC",
+                "ano": 2012
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Mapeamento de Rede",
+                "link": "github.com/caiorf/mapeamento-rede",
+                "descricao": "Ferramenta para inventário e topologia de redes."
+            }
+        ],
+        "certificacoes": [
+            "CCNA"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "SD-WAN",
+            "Network Automation"
+        ]
+    },
+    {
+        "Id": 54,
+        "nome": "Diana Carvalho",
+        "foto": "https://randomuser.me/api/portraits/women/54.jpg",
+        "cargo": "Analista de Pesquisa de Mercado",
+        "resumo": "Analista com foco em estudos de mercado e comportamento do consumidor.",
+        "localizacao": "Niterói/RJ",
+        "area": "Pesquisa",
+        "habilidadesTecnicas": [
+            "Pesquisa Quantitativa",
+            "Survey Tools",
+            "Análise Estatística"
+        ],
+        "softSkills": [
+            "Curiosidade",
+            "Comunicação",
+            "Rigor Metodológico"
+        ],
+        "experiencias": [
+            {
+                "empresa": "MarketResearch",
+                "cargo": "Analista de Pesquisa",
+                "inicio": "2017-10",
+                "fim": "Atual",
+                "descricao": "Condução de pesquisas e análise de dados para clientes."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Estatística",
+                "instituicao": "UFRJ",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Relatório Consumidor 360",
+                "link": "github.com/dianac/consumidor360",
+                "descricao": "Estudo sobre comportamento de compra em e-commerce."
+            }
+        ],
+        "certificacoes": [
+            "Research Methods Certificate"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            }
+        ],
+        "areaInteresses": [
+            "Comportamento do Consumidor",
+            "Segmentação"
+        ]
+    },
+    {
+        "Id": 55,
+        "nome": "Ellen Rodrigues",
+        "foto": "https://randomuser.me/api/portraits/women/55.jpg",
+        "cargo": "Gerente de Operações",
+        "resumo": "Gerente responsável por operações logísticas e melhoria de processos.",
+        "localizacao": "Maringá/PR",
+        "area": "Operações",
+        "habilidadesTecnicas": [
+            "Lean",
+            "Kaizen",
+            "ERP",
+            "KPI Management"
+        ],
+        "softSkills": [
+            "Liderança",
+            "Tomada de Decisão",
+            "Planejamento"
+        ],
+        "experiencias": [
+            {
+                "empresa": "Operare",
+                "cargo": "Gerente de Operações",
+                "inicio": "2019-06",
+                "fim": "Atual",
+                "descricao": "Gestão de operações e iniciativas de melhoria contínua."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Engenharia de Produção",
+                "instituicao": "UEM",
+                "ano": 2014
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Programa Kaizen",
+                "link": "github.com/ellenr/kaizen-program",
+                "descricao": "Plano de ações para redução de desperdício e melhoria contínua."
+            }
+        ],
+        "certificacoes": [
+            "Lean Six Sigma Black Belt"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Operações Sustentáveis",
+            "Automação Industrial"
+        ]
+    },
+    {
+        "Id": 56,
+        "nome": "Fábio Nascimento",
+        "foto": "https://randomuser.me/api/portraits/men/56.jpg",
+        "cargo": "Arquiteto de Dados",
+        "resumo": "Arquiteto de dados com experiência em modelagem e governança.",
+        "localizacao": "São Paulo/SP",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Data Modeling",
+            "Data Governance",
+            "Snowflake",
+            "ETL"
+        ],
+        "softSkills": [
+            "Visão Sistêmica",
+            "Comunicação",
+            "Liderança"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DataArch",
+                "cargo": "Arquiteto de Dados",
+                "inicio": "2018-01",
+                "fim": "Atual",
+                "descricao": "Definição de governança e padrões de dados corporativos."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Mestrado em Banco de Dados",
+                "instituicao": "USP",
+                "ano": 2013
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Catalogo de Dados",
+                "link": "github.com/fabion/data-catalog",
+                "descricao": "Implementação de catálogo e políticas de acesso."
+            }
+        ],
+        "certificacoes": [
+            "Certified Data Management Professional (CDMP)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Fluente"
+            }
+        ],
+        "areaInteresses": [
+            "Data Mesh",
+            "Governança"
+        ]
+    },
+    {
+        "Id": 57,
+        "nome": "Gisele Torres",
+        "foto": "https://randomuser.me/api/portraits/women/57.jpg",
+        "cargo": "Coordenação de Eventos",
+        "resumo": "Profissional com experiência em organização e execução de eventos corporativos.",
+        "localizacao": "Gravataí/RS",
+        "area": "Eventos",
+        "habilidadesTecnicas": [
+            "Planejamento de Eventos",
+            "Negociação com Fornecedores",
+            "Logística"
+        ],
+        "softSkills": [
+            "Organização",
+            "Resiliência",
+            "Comunicação"
+        ],
+        "experiencias": [
+            {
+                "empresa": "EventPlus",
+                "cargo": "Coordenadora de Eventos",
+                "inicio": "2016-05",
+                "fim": "Atual",
+                "descricao": "Planejamento, execução e fechamento de eventos corporativos."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Relações Públicas",
+                "instituicao": "UFRGS",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Checklist de Eventos",
+                "link": "github.com/giselet/checklist-eventos",
+                "descricao": "Modelo para planejamento e gestão de eventos."
+            }
+        ],
+        "certificacoes": [
+            "Evento Management Certification"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Experiências Presenciais",
+            "Eventos Híbridos"
+        ]
+    },
+    {
+        "Id": 58,
+        "nome": "Heitor Vasconcelos",
+        "foto": "https://randomuser.me/api/portraits/men/58.jpg",
+        "cargo": "Engenheiro de Dados Júnior",
+        "resumo": "Iniciante em engenharia de dados com foco em pipelines e integração.",
+        "localizacao": "Volta Redonda/RJ",
+        "area": "Dados",
+        "habilidadesTecnicas": [
+            "Python",
+            "SQL",
+            "Airflow Básico"
+        ],
+        "softSkills": [
+            "Aprendizado Rápido",
+            "Colaboração",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "DataStart",
+                "cargo": "Engenheiro de Dados Júnior",
+                "inicio": "2021-07",
+                "fim": "Atual",
+                "descricao": "Suporte na criação de pipelines e monitoramento de jobs."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Bacharel em Sistemas de Informação",
+                "instituicao": "UFF",
+                "ano": 2021
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "ETL Básico",
+                "link": "github.com/heitov/etl-basico",
+                "descricao": "Exemplo simples de ETL com Python e PostgreSQL."
+            }
+        ],
+        "certificacoes": [
+            "Data Engineering Fundamentals"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Pipelines",
+            "Observability"
+        ]
+    },
+    {
+        "Id": 59,
+        "nome": "Inácio Rocha",
+        "foto": "https://randomuser.me/api/portraits/men/59.jpg",
+        "cargo": "Analista de Riscos",
+        "resumo": "Analista focado em avaliação de riscos e mitigação em projetos.",
+        "localizacao": "Mossoró/RN",
+        "area": "Riscos",
+        "habilidadesTecnicas": [
+            "Risk Assessment",
+            "Controles Internos",
+            "Compliance"
+        ],
+        "softSkills": [
+            "Análise Crítica",
+            "Comunicação",
+            "Organização"
+        ],
+        "experiencias": [
+            {
+                "empresa": "RiskConsult",
+                "cargo": "Analista de Riscos",
+                "inicio": "2018-09",
+                "fim": "Atual",
+                "descricao": "Avaliação de riscos e acompanhamento de planos de ação."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Administração",
+                "instituicao": "UFERSA",
+                "ano": 2016
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Matriz de Riscos",
+                "link": "github.com/inaciorocha/matriz-riscos",
+                "descricao": "Template para identificação e priorização de riscos."
+            }
+        ],
+        "certificacoes": [
+            "Risk Management Professional (RMP)"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Intermediário"
+            }
+        ],
+        "areaInteresses": [
+            "Enterprise Risk",
+            "Governança"
+        ]
+    },
+    {
+        "Id": 60,
+        "nome": "Jéssica Almeida",
+        "foto": "https://randomuser.me/api/portraits/women/60.jpg",
+        "cargo": "Analista de Inteligência de Mercado",
+        "resumo": "Analista com foco em inteligência competitiva e análise de mercado.",
+        "localizacao": "Guarulhos/SP",
+        "area": "Inteligência de Mercado",
+        "habilidadesTecnicas": [
+            "Market Research",
+            "Competitive Analysis",
+            "Power BI"
+        ],
+        "softSkills": [
+            "Observação",
+            "Comunicação",
+            "Síntese"
+        ],
+        "experiencias": [
+            {
+                "empresa": "MarketIntel",
+                "cargo": "Analista de Inteligência",
+                "inicio": "2019-01",
+                "fim": "Atual",
+                "descricao": "Análises de concorrência e elaboração de relatórios estratégicos."
+            }
+        ],
+        "formacao": [
+            {
+                "curso": "Economia",
+                "instituicao": "PUC-SP",
+                "ano": 2015
+            }
+        ],
+        "projetos": [
+            {
+                "titulo": "Painel Competitivo",
+                "link": "github.com/jessicaalmeida/painel-competitivo",
+                "descricao": "Dashboard para monitoramento de concorrentes e preços."
+            }
+        ],
+        "certificacoes": [
+            "Market Research Certification"
+        ],
+        "idiomas": [
+            {
+                "idioma": "Inglês",
+                "nivel": "Avançado"
+            },
+            {
+                "idioma": "Espanhol",
+                "nivel": "Básico"
+            }
+        ],
+        "areaInteresses": [
+            "Pricing Strategy",
+            "Inteligência Competitiva"
+        ]
+    }
+]
