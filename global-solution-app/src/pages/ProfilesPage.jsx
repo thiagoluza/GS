@@ -1,13 +1,12 @@
-// src/pages/ProfilesPage.jsx
-
 import { useState, useEffect } from 'react';
-// Caminhos corrigidos para ../
+import { Link } from 'react-router-dom'; 
 import ProfileCard from '../components/ProfileCard'; 
 import SearchBar from '../components/SearchBar';   
 import ProfileModal from '../components/ProfileModal';
+import DarkModeToggle from '../components/DarkModeToggle'; 
 
-// Nome da função está correto
 function ProfilesPage() {
+  
   const [todosProfissionais, setTodosProfissionais] = useState([]);
   const [profissionaisFiltrados, setProfissionaisFiltrados] = useState([]);
   const [perfilSelecionado, setPerfilSelecionado] = useState(null);
@@ -28,10 +27,8 @@ function ProfilesPage() {
       .then(data => {
         setTodosProfissionais(data);
         setProfissionaisFiltrados(data);
-
         const areas = [...new Set(data.map(p => p.area))];
         const locs = [...new Set(data.map(p => p.localizacao))];
-
         setAreasUnicas(areas.sort());
         setLocalizacoesUnicas(locs.sort());
       })
@@ -40,7 +37,6 @@ function ProfilesPage() {
 
   useEffect(() => {
     let filtrados = [...todosProfissionais];
-
     const buscaLower = filtros.busca.toLowerCase();
 
     if (filtros.busca) {
@@ -50,17 +46,13 @@ function ProfilesPage() {
         p.habilidadesTecnicas.some(skill => skill.toLowerCase().includes(buscaLower))
       );
     }
-
     if (filtros.area) {
       filtrados = filtrados.filter(p => p.area === filtros.area);
     }
-
     if (filtros.localizacao) {
       filtrados = filtrados.filter(p => p.localizacao === filtros.localizacao);
     }
-
     setProfissionaisFiltrados(filtrados);
-
   }, [filtros, todosProfissionais]);
 
   const handleFilterChange = (nomeFiltro, valor) => {
@@ -74,30 +66,38 @@ function ProfilesPage() {
   const fecharModal = () => setPerfilSelecionado(null);
 
   return (
-    // Removido 'relative' e 'min-h-screen' daqui (agora está no App.jsx)
-    <div className="text-gray-900 dark:text-gray-100 p-8">
+    <div className="text-gray-900 dark:text-gray-100">
 
-      {/* DarkModeToggle foi REMOVIDO daqui */}
-
-      <header className="container mx-auto mb-8">
-        <img
-          src="/EmpreGo.svg"
-          alt="Logo EmpreGo"
-          className="h-12 w-auto mb-2"
-        />
-        <p className="text-xl">Conectando pessoas, competências e propósito.</p>
+      <header className="bg-white dark:bg-gray-800 shadow-sm py-4">
+        <div className="container mx-auto flex justify-between items-center px-8">
+          
+          <Link to="/" className="flex items-center">
+            <img
+              src="/EmpreGo.svg"
+              alt="Logo EmpreGo"
+              className="h-10 w-auto"
+            />
+            <span className="ml-3 text-2xl font-bold text-gray-900 dark:text-white hidden sm:block">
+              Profissionais
+            </span>
+          </Link>
+          
+          <DarkModeToggle /> 
+          
+        </div>
       </header>
+      
+      <div className="container mx-auto pt-8 px-8 mb-8"> 
+        <SearchBar
+          onFilterChange={handleFilterChange}
+          areas={areasUnicas}
+          localizacoes={localizacoesUnicas}
+        />
+      </div>
 
-      <SearchBar
-        onFilterChange={handleFilterChange}
-        areas={areasUnicas}
-        localizacoes={localizacoesUnicas}
-      />
-
-      <main className="container mx-auto">
-
+      <main className="container mx-auto px-8 pb-8">
         {profissionaisFiltrados.length > 0 ? (
-
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {profissionaisFiltrados.map(perfil => (
               <ProfileCard
@@ -109,7 +109,7 @@ function ProfilesPage() {
           </div>
 
         ) : (
-
+          
           <div className="text-center py-20">
             <h2 className="text-2xl font-semibold dark:text-white">Nenhum profissional encontrado</h2>
             <p className="text-gray-500 dark:text-gray-400 mt-2">
@@ -117,7 +117,6 @@ function ProfilesPage() {
             </p>
           </div>
         )}
-
       </main>
 
       {perfilSelecionado && (
@@ -130,5 +129,4 @@ function ProfilesPage() {
   );
 }
 
-// CORREÇÃO FINAL: O export default deve ser o nome da função
 export default ProfilesPage;

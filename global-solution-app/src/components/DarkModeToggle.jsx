@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-
-export default function DarkModeToggle() {
-
+export default function DarkModeToggle({ floating = false }) { 
+  
   const [isDarkMode, setIsDarkMode] = useState(() => {
     if (localStorage.theme === 'dark') {
       return true;
@@ -14,7 +13,7 @@ export default function DarkModeToggle() {
   });
 
   useEffect(() => {
-    const root = window.document.documentElement;
+    const root = window.document.documentElement; 
 
     if (isDarkMode) {
       root.classList.add('dark');
@@ -29,31 +28,30 @@ export default function DarkModeToggle() {
     setIsDarkMode(!isDarkMode);
   };
 
+  const baseStyle = "p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors";
+  
+  const positionStyle = floating 
+    ? "absolute top-8 right-8 z-50" 
+    : "flex-shrink-0"; 
   return (
     <button
       onClick={toggleTheme}
-      className="absolute top-8 right-8 p-3 rounded-full 
-                 bg-gray-200 dark:bg-gray-700 
-                 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+      className={`${baseStyle} ${positionStyle}`} 
       aria-label="Toggle dark mode"
     >
-
+      
       {isDarkMode ? (
-
-        <img
+        <img 
           src="/images/night-mode-branco.png" 
-          alt="Ativar modo claro"
+          alt="Ativar modo claro" 
           className="w-6 h-6"
         />
-
       ) : (
-
-        <img
-          src="/images/night-mode.png" 
-          alt="Ativar modo escuro"
+        <img 
+          src="/images/night-mode.png"
+          alt="Ativar modo escuro" 
           className="w-6 h-6"
         />
-
       )}
 
     </button>

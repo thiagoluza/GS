@@ -1,33 +1,27 @@
-// src/pages/LandingPage.jsx
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaUsers, FaLightbulb, FaConnectdevelop, FaArrowRight, FaCheckCircle, FaQuoteLeft } from 'react-icons/fa';
+import DarkModeToggle from '../components/DarkModeToggle';
 
 export default function LandingPage() {
     return (
-        <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+        <div className="relative flex flex-col min-h-screen bg-white dark:bg-gray-900">
+            
+            <DarkModeToggle floating={true} />
 
-            {/* 1. Hero Section (COM A IMAGEM DE FUNDO) */}
             <header className="relative z-0 flex flex-col items-center justify-center min-h-screen text-center p-8 overflow-hidden">
-
-                {/* Imagem de Fundo (Fica atrás) */}
                 <div
                     className="absolute inset-0 bg-cover bg-center"
                     style={{ backgroundImage: "url('/images/fundo-div.jpg')" }}
                 >
                 </div>
-                {/* Sobreposição Escura (para legibilidade) */}
                 <div className="absolute inset-0 bg-black opacity-70"></div>
-
-                {/* Conteúdo da Hero (Fica na frente) */}
                 <div className="relative z-10 flex flex-col items-center">
                     <img
                         src="/EmpreGo.svg"
                         alt="Logo EmpreGo"
                         className="h-24 w-auto mb-6 drop-shadow-lg"
                     />
-
                     <h1 className="text-6xl font-extrabold text-white leading-tight mb-4 md:text-5xl">
                         Conecte-se ao Seu Próximo Grande Passo.
                     </h1>
@@ -35,20 +29,17 @@ export default function LandingPage() {
                         Encontre os melhores talentos para sua equipe ou descubra a oportunidade
                         ideal para sua carreira. O futuro profissional começa aqui.
                     </p>
-
                     <Link
                         to="/profiles"
                         className="mt-12 px-10 py-5 bg-brand-orange text-white text-xl 
-                      font-bold rounded-full shadow-lg tracking-wide uppercase
-                      hover:bg-opacity-90 transition-all transform hover:scale-105"
+                        font-bold rounded-full shadow-lg tracking-wide uppercase
+                        hover:bg-opacity-90 transition-all transform hover:scale-105"
                     >
                         Explorar Perfis <FaArrowRight className="inline-block ml-3 -mt-1" />
                     </Link>
                 </div>
-
             </header>
 
-            {/* 2. Seções de Destaque (FUNDO SÓLIDO) */}
             <section className="w-full bg-white dark:bg-gray-900 py-24 px-8">
                 <div className="container mx-auto max-w-6xl">
                     <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">
@@ -74,26 +65,16 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* 3. Seção "Veja a Plataforma" (FUNDO SÓLIDO) */}
-            <section className="w-full bg-gray-50 dark:bg-gray-800 py-24 px-8">
-                <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <section className="w-full bg-gray-50 dark:bg-gray-800 py-24 px-8 overflow-hidden">
+                <div className="container mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
-                    <div className="bg-white dark:bg-gray-700 p-4 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700">
-                        <div className="flex space-x-2 mb-3">
-                            <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                            <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                            <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                        </div>
-                        <img
-                            src="/images/app-mockup.png"
-                            alt="Plataforma EmpreGo em ação"
-                            className="w-full rounded-lg shadow-inner"
-                        />
-                    </div>
+                    <Link to="/profiles">
+                        <StaticProfileCard />
+                    </Link>
 
                     <div className="text-gray-900 dark:text-white">
                         <h2 className="text-4xl font-bold mb-6">
-                            Veja a plataforma em ação.
+                            Perfis claros e diretos.
                         </h2>
                         <p className="text-xl text-gray-700 dark:text-gray-300 mb-6">
                             Nossa interface limpa e os filtros poderosos tornam a busca pelo profissional
@@ -118,7 +99,6 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* 4. Seção de Depoimentos (FUNDO SÓLIDO) */}
             <section className="w-full bg-white dark:bg-gray-900 py-24 px-8">
                 <div className="container mx-auto max-w-6xl">
                     <h2 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">
@@ -147,7 +127,6 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            {/* 5. Seção Final de CTA (FUNDO LARANJA) */}
             <section className="w-full bg-brand-orange text-white py-20 px-8">
                 <div className="container mx-auto max-w-4xl text-center">
                     <h2 className="text-4xl font-bold mb-4">
@@ -159,15 +138,14 @@ export default function LandingPage() {
                     <Link
                         to="/profiles"
                         className="px-10 py-5 bg-white text-brand-orange text-xl 
-                       font-bold rounded-full shadow-lg tracking-wide uppercase
-                       hover:bg-gray-100 transition-all transform hover:scale-105"
+                           font-bold rounded-full shadow-lg tracking-wide uppercase
+                           hover:bg-gray-100 transition-all transform hover:scale-105"
                     >
                         Explorar Perfis
                     </Link>
                 </div>
             </section>
 
-            {/* 6. Rodapé */}
             <footer className="w-full bg-gray-900 dark:bg-gray-950 text-gray-400 py-6 text-center">
                 <p>&copy; {new Date().getFullYear()} EmpreGo. Todos os direitos reservados.</p>
                 <p className="text-sm mt-2">Feito com <span className="text-red-500">&hearts;</span> para a Global Solution.</p>
@@ -177,13 +155,11 @@ export default function LandingPage() {
     );
 }
 
-// --- Componentes Auxiliares ---
-
 function FeatureCard({ icon, title, description }) {
     return (
         <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-2xl shadow-lg 
-                    border border-gray-100 dark:border-gray-700
-                    hover:shadow-xl transition-shadow duration-300">
+                       border border-gray-100 dark:border-gray-700
+                       hover:shadow-xl transition-shadow duration-300">
             <div className="text-brand-orange text-5xl mb-5">{icon}</div>
             <h3 className="text-2xl font-bold mb-3 text-gray-900 dark:text-white">{title}</h3>
             <p className="text-gray-700 dark:text-gray-300">{description}</p>
@@ -193,9 +169,9 @@ function FeatureCard({ icon, title, description }) {
 
 function TestimonialCard({ quote, name, title, imageUrl }) {
     return (
-        <div className="bg-white dark:bg-gray-700 p-8 rounded-2xl shadow-lg">
+        <div className="flex flex-col bg-white dark:bg-gray-700 p-8 rounded-2xl shadow-lg">
             <FaQuoteLeft className="text-brand-orange text-3xl mb-4" />
-            <p className="text-gray-700 dark:text-gray-200 text-lg italic mb-6">
+            <p className="flex-grow text-gray-700 dark:text-gray-200 text-lg italic mb-6">
                 "{quote}"
             </p>
             <div className="flex items-center">
@@ -207,4 +183,40 @@ function TestimonialCard({ quote, name, title, imageUrl }) {
             </div>
         </div>
     );
+}
+
+function StaticProfileCard() {
+  return (
+    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg 
+                   overflow-hidden p-4
+                   flex items-center
+                   border border-gray-200 dark:border-gray-700
+                   cursor-pointer
+                   transform transition-all duration-300 
+                   hover:scale-[1.03] hover:shadow-xl">
+      
+      <img 
+        src="https://randomuser.me/api/portraits/women/1.jpg" 
+        alt="Exemplo de Perfil"
+        className="w-20 h-20 rounded-full object-cover flex-shrink-0
+                   border-2 border-gray-200 dark:border-gray-700" 
+      />
+      
+      <div className="flex-grow ml-4 min-w-0">
+        <div className="flex items-center">
+          <h3 className="text-lg font-bold text-gray-900 dark:text-white mr-2 truncate">
+            Ana Beatriz Costa
+          </h3>
+          <FaCheckCircle className="text-brand-orange flex-shrink-0" />
+        </div>
+        <p className="text-sm text-gray-600 dark:text-gray-400 truncate">
+          Engenheira de Software Sênior
+        </p>
+      </div>
+      
+      <div className="ml-4 text-gray-300 dark:text-gray-600">
+        <FaArrowRight size={20} />
+      </div>
+    </div>
+  );
 }

@@ -1,13 +1,24 @@
-// src/components/SearchBar.jsx
-
-import React from 'react';
-import { FaSearch, FaBriefcase, FaMapMarkerAlt, FaChevronDown } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaSearch, FaBriefcase, FaMapMarkerAlt } from 'react-icons/fa';
+import CustomDropdown from './CustomDropdown'; 
 
 export default function SearchBar({ onFilterChange, areas, localizacoes }) {
   
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    onFilterChange(name, value);
+  const [selectedArea, setSelectedArea] = useState('');
+  const [selectedLocation, setSelectedLocation] = useState('');
+
+  const handleSearchChange = (e) => {
+    onFilterChange(e.target.name, e.target.value);
+  };
+
+  const handleAreaChange = (area) => {
+    setSelectedArea(area);
+    onFilterChange('area', area);
+  };
+
+  const handleLocationChange = (location) => {
+    setSelectedLocation(location);
+    onFilterChange('localizacao', location);
   };
 
   const inputStyle = `
@@ -15,10 +26,7 @@ export default function SearchBar({ onFilterChange, areas, localizacoes }) {
     border-gray-200 dark:border-gray-700 
     bg-gray-50 dark:bg-gray-900 
     rounded-xl focus:outline-none 
-    
-    /* MUDANÇA AQUI: de ring-blue-500 para brand-orange */
     focus:ring-2 focus:ring-brand-orange
-    
     text-gray-900 dark:text-gray-200
   `;
 
@@ -33,39 +41,25 @@ export default function SearchBar({ onFilterChange, areas, localizacoes }) {
             name="busca"
             placeholder="Buscar por nome, cargo ou tecnologia..."
             className={inputStyle}
-            onChange={handleChange}
+            onChange={handleSearchChange}
           />
         </div>
         
-        <div className="relative">
-          <FaBriefcase className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" />
-          <select
-            name="area"
-            className={`${inputStyle} appearance-none pr-10`} 
-            onChange={handleChange}
-          >
-            <option value="">Todas as Áreas</option>
-            {areas.map(area => (
-              <option key={area} value={area}>{area}</option>
-            ))}
-          </select>
-          <FaChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
-        </div>
+        <CustomDropdown
+          icon={FaBriefcase}
+          options={areas}
+          value={selectedArea}
+          onChange={handleAreaChange}
+          placeholder="Todas as Áreas"
+        />
         
-        <div className="relative">
-          <FaMapMarkerAlt className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" />
-          <select
-            name="localizacao"
-            className={`${inputStyle} appearance-none pr-10`}
-            onChange={handleChange}
-          >
-            <option value="">Todas as Localizações</option>
-            {localizacoes.map(loc => (
-              <option key={loc} value={loc}>{loc}</option>
-            ))}
-          </select>
-          <FaChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
-        </div>
+        <CustomDropdown
+          icon={FaMapMarkerAlt}
+          options={localizacoes}
+          value={selectedLocation}
+          onChange={handleLocationChange}
+          placeholder="Todas as Localizações"
+        />
 
       </div>
     </div>

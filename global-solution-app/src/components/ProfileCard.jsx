@@ -1,66 +1,39 @@
-// src/components/ProfileCard.jsx
-
 import React from 'react';
-import { FaUserFriends, FaRegEye, FaCheckCircle } from 'react-icons/fa'; 
+import { FaCheckCircle, FaArrowRight } from 'react-icons/fa'; 
 
 export default function ProfileCard({ perfil, onCardClick }) {
   
-  const handleFollow = (e) => {
-    e.stopPropagation(); 
-    alert(`Você começou a seguir ${perfil.nome}!`);
-  };
-
   return (
     <div
       onClick={() => onCardClick(perfil)}
       className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg 
                  overflow-hidden group cursor-pointer
-                 transform transition-all duration-300 hover:scale-[1.03]"
+                 transform transition-all duration-300 hover:scale-[1.03] hover:shadow-xl
+                 flex items-center p-4" 
     >
       
       <img 
         src={perfil.foto}
         alt={`Foto de ${perfil.nome}`}
-        className="w-full h-56 object-cover" 
+        className="w-16 h-16 rounded-full object-cover flex-shrink-0
+                   border-2 border-gray-200 dark:border-gray-700" 
       />
 
-      <div className="p-5">
-        
-        <div className="flex items-center mb-1">
-          <h3 className="text-xl font-bold text-gray-900 dark:text-white mr-2">
+      <div className="flex-grow ml-4 min-w-0">
+        <div className="flex items-center">
+          <h3 className="text-lg font-bold text-gray-900 dark:text-white mr-2 truncate">
             {perfil.nome}
           </h3>
-          {/* MUDANÇA AQUI: de text-green-500 para text-brand-orange */}
-          <FaCheckCircle className="text-brand-orange" />
+          <FaCheckCircle className="text-brand-orange flex-shrink-0" />
         </div>
-
-        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 h-10">
-          {perfil.resumo.substring(0, 70)}...
+        <p className="text-sm text-gray-600 dark:text-gray-400 truncate">
+          {perfil.cargo}
         </p>
+      </div>
 
-        <div className="flex items-center justify-between mt-4">
-          
-          <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 gap-4">
-            <span className="flex items-center">
-              <FaUserFriends className="mr-1.5" /> 
-              {Math.floor(Math.random() * 500) + 100} 
-            </span>
-            <span className="flex items-center">
-              <FaRegEye className="mr-1.5" /> 
-              {Math.floor(Math.random() * 1000) + 200} 
-            </span>
-          </div>
-          
-          <button 
-            type="button"
-            onClick={handleFollow}
-            className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 
-                       font-semibold px-5 py-2 rounded-full text-sm
-                       hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-200"
-          >
-            Follow +
-          </button>
-        </div>
+      <div className="ml-4 text-gray-300 dark:text-gray-600 
+                      group-hover:text-brand-orange transition-colors">
+        <FaArrowRight size={20} />
       </div>
     </div>
   );
