@@ -158,7 +158,6 @@ export default function ProfileModal({ perfil, onClose }) {
           </button>
           <button 
             onClick={handleRecommend}
-            // MUDANÇA: Botão primário agora usa brand-orange
             className="bg-brand-orange text-white font-semibold px-5 py-2 rounded-full 
                        hover:bg-opacity-90 transition-colors"
           >
@@ -170,7 +169,6 @@ export default function ProfileModal({ perfil, onClose }) {
   );
 }
 
-// Helper "Section" (sem mudança)
 function Section({ title, children }) {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-5 mb-6">
