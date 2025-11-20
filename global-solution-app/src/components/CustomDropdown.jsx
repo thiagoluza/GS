@@ -50,7 +50,6 @@ export default function CustomDropdown({ icon: Icon, options, value, onChange, p
           className="absolute top-full left-0 mt-2 w-full bg-white dark:bg-gray-800 
                      rounded-lg shadow-xl max-h-60 overflow-y-auto z-20
                      
-                     /* --- A MÁGICA DA SCROLLBAR --- */
                      scrollbar-thin 
                      scrollbar-thumb-brand-orange/80 
                      scrollbar-track-gray-100 dark:scrollbar-track-gray-700
