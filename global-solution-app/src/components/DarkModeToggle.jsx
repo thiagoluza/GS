@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 
 export default function DarkModeToggle({ floating = false }) { 
@@ -25,8 +26,9 @@ export default function DarkModeToggle({ floating = false }) {
 
   const baseStyle = "p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors";
   
+
   const positionStyle = floating 
-    ? "absolute top-3 right-3 md:top-8 md:right-8 z-50" 
+    ? "absolute top-6 right-6 md:top-8 md:right-8 z-50" 
     : "flex-shrink-0";
 
   return (
@@ -39,7 +41,7 @@ export default function DarkModeToggle({ floating = false }) {
         <img 
           src="/images/day-mode.png"
           alt="Ativar modo claro" 
-          className="w-5 h-5 md:w-6 md:h-6" 
+          className="w-5 h-5 md:w-6 md:h-6"
         />
       ) : (
         <img 
