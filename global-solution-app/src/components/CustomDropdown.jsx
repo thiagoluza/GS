@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
 
@@ -32,7 +33,9 @@ export default function CustomDropdown({ icon: Icon, options, value, onChange, p
   return (
     <div className="relative w-full" ref={dropdownRef}>
       
-      <Icon className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10" />
+      {Icon && (
+        <Icon className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10" />
+      )}
 
       <button
         type="button"
@@ -49,21 +52,20 @@ export default function CustomDropdown({ icon: Icon, options, value, onChange, p
         <div 
           className="absolute top-full left-0 mt-2 w-full bg-white dark:bg-gray-800 
                      rounded-lg shadow-xl max-h-60 overflow-y-auto z-20
-                     
                      scrollbar-thin 
                      scrollbar-thumb-brand-orange/80 
                      scrollbar-track-gray-100 dark:scrollbar-track-gray-700
                      hover:scrollbar-thumb-brand-orange"
         >
           <div
-            onClick={() => handleSelect('')} 
+            onClick={() => handleSelect('')}
             className="px-4 py-3 text-gray-700 dark:text-gray-200 
                        hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
           >
             {placeholder}
           </div>
           
-          {options.map((option) => (
+          {(options || []).map((option) => (
             <div
               key={option}
               onClick={() => handleSelect(option)}

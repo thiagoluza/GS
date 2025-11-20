@@ -1,29 +1,29 @@
-// src/components/CustomDropdown.jsx
 
-import React, { useState, useEffect, useRef } from 'react';
-import { FaChevronDown } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaSearch, FaBriefcase, FaMapMarkerAlt } from 'react-icons/fa';
+import CustomDropdown from './CustomDropdown';
 
-export default function CustomDropdown({ icon: Icon, options, value, onChange, placeholder }) {
-  const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef(null);
+export default function SearchBar({ onFilterChange, areas, localizacoes }) {
+  
+  const [selectedArea, setSelectedArea] = useState('');
+  const [selectedLocation, setSelectedLocation] = useState('');
 
-  const handleSelect = (option) => {
-    onChange(option);
-    setIsOpen(false);
+  const handleSearchChange = (e) => {
+    onFilterChange(e.target.name, e.target.value);
   };
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, [dropdownRef]);
+  const handleAreaChange = (area) => {
+    setSelectedArea(area);
+    onFilterChange('area', area);
+  };
 
-  const buttonStyle = `
-    w-full pl-12 pr-10 py-3 text-left border 
+  const handleLocationChange = (location) => {
+    setSelectedLocation(location);
+    onFilterChange('localizacao', location);
+  };
+
+  const inputStyle = `
+    w-full pl-12 pr-4 py-3 border 
     border-gray-200 dark:border-gray-700 
     bg-gray-50 dark:bg-gray-900 
     rounded-xl focus:outline-none 
@@ -32,51 +32,37 @@ export default function CustomDropdown({ icon: Icon, options, value, onChange, p
   `;
 
   return (
-    <div className="relative w-full" ref={dropdownRef}>
-      
-      <Icon className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 z-10" />
-
-      <button
-        type="button"
-        className={`${buttonStyle} flex justify-between items-center`}
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <span className={value ? 'text-gray-900 dark:text-white' : 'text-gray-400'}>
-          {value || placeholder}
-        </span>
-        <FaChevronDown className={`text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
-      </button>
-
-      {isOpen && (
-        <div 
-          className="absolute top-full left-0 mt-2 w-full bg-white dark:bg-gray-800 
-                     rounded-lg shadow-xl max-h-60 overflow-y-auto z-20
-                     scrollbar-thin 
-                     scrollbar-thumb-brand-orange/80 
-                     scrollbar-track-gray-100 dark:scrollbar-track-gray-700
-                     hover:scrollbar-thumb-brand-orange"
-        >
-          <div
-            onClick={() => handleSelect('')}
-            className="px-4 py-3 text-gray-700 dark:text-gray-200 
-                       hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
-          >
-            {placeholder}
-          </div>
-          
-          {/* A CORREÇÃO ESTÁ AQUI: 'options || []' impede quebra se vier nulo */}
-          {(options || []).map((option) => (
-            <div
-              key={option}
-              onClick={() => handleSelect(option)}
-              className="px-4 py-3 text-gray-700 dark:text-gray-200 
-                         hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer"
-            >
-              {option}
-            </div>
-          ))}
+    <div className="mb-8 p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        
+        <div className="relative md:col-span-2">
+          <FaSearch className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" />
+          <input
+            type="text"
+            name="busca"
+            placeholder="Buscar por nome, cargo ou tecnologia..."
+            className={inputStyle}
+            onChange={handleSearchChange}
+          />
         </div>
-      )}
+        
+        <CustomDropdown
+          icon={FaBriefcase}
+          options={areas}
+          value={selectedArea}
+          onChange={handleAreaChange}
+          placeholder="Todas as Áreas"
+        />
+        
+        <CustomDropdown
+          icon={FaMapMarkerAlt}
+          options={localizacoes}
+          value={selectedLocation}
+          onChange={handleLocationChange}
+          placeholder="Todas as Localizações"
+        />
+
+      </div>
     </div>
   );
 }
