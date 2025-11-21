@@ -1,18 +1,17 @@
 # EmpreGo - O Futuro do Trabalho 🚀
 
-![Status](https://img.shields.io/badge/Status-Concluído-green)
 ![React](https://img.shields.io/badge/React-v18-blue)
 ![Tailwind](https://img.shields.io/badge/Tailwind-v3-38bdf8)
 
 > "Conectando pessoas, competências e propósito por meio da tecnologia."
-
-## 📖 Sobre o Projeto
 
 ## 👥 Autores
 
 * **Thiago Luza** - RM562219
 * **Kathleen Lourenço** - RM561571
 * **Kauã Gabriel** - RM566043
+
+## 📖 Sobre o Projeto
 
 Este projeto foi desenvolvido como parte do desafio **Global Solution: O Futuro do Trabalho**. 
 
